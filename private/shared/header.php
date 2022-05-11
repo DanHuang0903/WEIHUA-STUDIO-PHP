@@ -6,7 +6,7 @@
 	<title></title>
 
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400&family=Lato:wght@100&family=Raleway:wght@100;300;400&family=Ubuntu:wght@100;300;400&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="<?php echo PUBLIC_PATH . '/stylesheets/styles.css'; ?>">
+	<link rel="stylesheet" type="text/css" href="../../public/stylesheets/styles.css">
 	<script src="https://kit.fontawesome.com/0d7e4138be.js" crossorigin="anonymous"></script>
 <body>
 <header class="main-header not-active">
