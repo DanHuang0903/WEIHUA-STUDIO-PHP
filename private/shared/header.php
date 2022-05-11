@@ -37,7 +37,7 @@
 				</div>
 			</div>
 			<div id="logo">
-				<a href="/home"><span class="logo-img"></span></a>
+				<a href="/public"><span class="logo-img"></span></a>
 			</div>
 		</div>
 		<div class="menu" id="main-nav-menu">
