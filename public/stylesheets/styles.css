@@ -747,10 +747,24 @@ html, body{
 		.main-bg::before {
 			transform: translateY(-62%);
 		}
-
+		.home-main-content h1 {
+			font-size: 60px;
+		}
+		.home-main-content p {
+			font-size: 20px;
+		}
+		.nature-content h2 {
+			font-size: 40px;
+		}
+		.nature-content p {
+			font-size: 20px;
+		}
 		.footer-content {
 			padding-top: 10%;
 		}
+
+
+
 	}
 
 @media screen and (max-width: 560px) {
@@ -761,6 +775,9 @@ html, body{
 		align-items: center;
 		height: 100%;
 		margin-left: 5rem;
+	}
+	.ribbon-wrapper {
+		border-bottom: solid 1px rgba(0, 0, 0, 0.1);
 	}
 	.menu-bar {
 		display: block;
