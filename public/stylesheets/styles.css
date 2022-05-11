@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-
-	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400&family=Lato:wght@100&family=Raleway:wght@100;300;400&family=Ubuntu:wght@100;300;400&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/0d7e4138be.js" crossorigin="anonymous"></script>
-<style type="text/css">
-	html, body{
+html, body{
 		max-width: 100% !important;
 		overflow-x: hidden !important;
 	}
@@ -72,7 +62,7 @@
 		display: block;
 		width: 3.5rem;
 		height: 3.5rem;
-		background-image: url("img/logo.png");
+		background-image: url("../img/logo.png");
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -211,7 +201,7 @@
 
 	.d-studio-content {
 	  background-color: #fefefe;
-	  background-image:url("img/logo.png");
+	  background-image:url("../img/logo.png");
 	  background-position: right bottom;
 	  background-size: 20%,20%;
 	  background-origin: content-box;
@@ -250,7 +240,7 @@
 	}
 	.main-bg::before{
 		content: '';
-		background-image: url("img/main_bg3.png");
+		background-image: url("../img/main_bg3.png");
 		position: absolute;
 		width: 100%;
 		height: 100%;
@@ -306,7 +296,7 @@
 		box-shadow: 0px 10px 6px #888;
 	}
 	.bg-img {
-		background-image: url("img/nature_img2.png");
+		background-image: url("../img/nature_img2.png");
 		position: absolute;
 		width: 100%;
 		height: 100%;
@@ -376,7 +366,7 @@
 		margin-left: 2rem;
 		margin-right: 2rem;
 		border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-		background-image:url("img/logo.png");
+		background-image:url("../img/logo.png");
 		background-size: 30%;
 		background-position: left center;
 		background-repeat: no-repeat;
@@ -454,12 +444,12 @@
 	}
 
 	#awarded {
-		background-image: url("img/share_btn_bg_g2.png");
+		background-image: url("../img/share_btn_bg_g2.png");
 		background-size: cover;
 
 	}
 	#fav, #recent {
-		background-image: url("img/share_btn_bg_p2.png");
+		background-image: url("../img/share_btn_bg_p2.png");
 		background-size: cover;
 	}
 	.share-btn {
@@ -568,7 +558,9 @@
 		text-transform: uppercase;
 	}
 
-	#nature-tile-btn button{
+	#nature-tile-btn a{
+		text-decoration: none;
+		color: black;
 		width: 9rem;
 		padding: 1rem;
 		border-radius: 10px;
@@ -580,7 +572,7 @@
 		background-image: linear-gradient(-45deg,#C7D6C7,#D2D2C8, #EDD6D6, #EAC9C9);
 	}
 
-	#nature-tile-btn button:hover {
+	#nature-tile-btn a:hover {
 		box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.6); 
 		background: linear-gradient(-45deg, #C7D6C7, #D2D2C8, #EDD6D6, #EAC9C9);
 		background-size: 300% 300%;
@@ -919,7 +911,7 @@
 
 	}
 	.main-bg::before{
-		background-image: url("img/mobile_bg.png");
+		background-image: url("../img/mobile_bg.png");
 		transform: translateY(0%);
 	}
 
@@ -1158,7 +1150,9 @@
 		padding: 1rem;
 	}
 
-	#m-btn button {
+	#m-btn a {
+		text-decoration: none;
+		color: black;
 		width: 8rem;
 		margin: 1rem;
 		padding: 1rem;
@@ -1177,7 +1171,7 @@
 	}
 
 
-	#m-btn button:hover {
+	#m-btn a:hover {
 		box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.6); 
 		background-color: linear-gradient(-45deg, #C7D6C7, #D2D2C8, #EDD6D6, #EAC9C9);
 		background-size: 300% 300%;
@@ -1223,316 +1217,3 @@
 		font-size: 12px;
 	}
 }
-
-
-</style>
-<body>
-
-<header class="main-header not-active">
-	<a class="ribbon">
-		<div class="ribbon-wrapper">
-			<div class="ribbon-content">
-				<p id="new-count" ><span id="recent-num"></span> Recently Released Photograpic Works</p>
-			</div>
-			<div class="ribbon-content">
-				<p id="award-count"><span id="award-num"></span> Awards Gained </p>
-			</div>
-			<div class="ribbon-content">
-				<p id="city-count"><span id="city-num"></span> Cities Visited</p>
-			</div>
-		</div>
-
-	</a>
-	<nav class="menu-bar">
-		<div class="nav-container">
-			<div class="menu-control">
-				<div class="control">
-					<button class="nav-toggle" id="menu-toggle" title="Menu Toggle" aria-controls="main-nav-menu" aria-expanded="false">
-						<span class="toggle-icon">
-							<span class="icon-line toggle-icon-top"></span>
-							<span class="icon-line toggle-icon-bottom"></span>
-						</span>
-					</button>
-				</div>
-			</div>
-			<div id="logo">
-				<a href="/home"><span class="logo-img"></span></a>
-			</div>
-		</div>
-		<div class="menu" id="main-nav-menu">
-			<ul class="menu-list" aria-labelledby="menu-toggle">
-				<li class="nav-item">
-				<a href="/photographer" class="nav-item-link">Photographer</a>
-				</li>
-				<li class="nav-item">
-				<a href="/awards" class="nav-item-link">Awards</a>
-				</li>
-				<li class="nav-item">
-					<div class="dropdown">
-						<a type="button" href="#" class="nav-item-link" id="about-btn">About <i class="fa-solid fa-angle-down"></i></a>
-						<div class="dropdown-content">
-							<div id="us"><p>test</p></div>
-							<div id="contact"><p>test</p></div>
-							<div id="drop-blank"></div>
-						</div>
-					</div>
-				
-				</li>
-			</ul>
-		</div>
-	</nav>
-</header>
-
-<main>
-	<div class="home-head">
-		<div class="main-bg">
-		</div>
-		<div class="home-main-content">
-			<h1>Weihua Photography D-studio</h1>
-			<p id="home-main-p">
-				Photographic works by Weihua Huang, reveal the pretty of earth, display diverse cultures of human society. 
-			</p>
-
-			<button id="intro-btn">WHAT IS D-STUDIO</button>
-		</div>
-		<div id="d-studio" class="modal">
-			<div class="d-studio-content">
-				<span id="modal-close">&times;</span>
-				<p>D-studio is short for digital studio. </p>
-			</div>
-		</div>
-	
-	</div>
-	<div class="nature">
-		<div class="bg-img"></div>
-		
-		<div class="nature-content">
-			<h2 id="title-1">
-				Moutain, River, Woods, <span class="green-text word-shadow">Nature </span>
-			</h2>
-			<h2 id="title-2">
-				People, Society, Living, <span class="pink-text word-shadow">Culture</span>
-			</h2>
-			<p>
-				life is a journey, photos capture the moments
-			</p>
-		</div>
-		<div class="nature-tile">
-			<div id="nature-tile-words">
-				<div id="logo-story">
-					<h2>Our LOGO</h2>
-					<p>The inspiration of our LOGO is from origami. One day, I was folding a double-color paper strip into a letter W, and suddenly realized that I could see both colors on oneside afterwards, which perfectly matches the studio's belief.</p>
-				</div>
-				<div id="belief">
-					<h2>We believe <span class="green-text">nature</span> and human <span class="pink-text">culture</span> are inseparatable</h2>
-					<p>I use my camera to capture the breathtaking natural scenery and amazing human cultures. But they are not just two isolated categories. They are the two sides of the paper strip. They have their own colors respectively, but could be never separated. Like our LOGO, we are devoted to present the harmony of nature and human culture in a gorgeous way.</p>
-				</div>
-				<div id="share">
-					<p>shortcut</p>
-					<div id="share-content">
-						<button id="awarded" class="share-btn">Awarded<br/> Photography</button>
-						<button id="fav" class="share-btn">Photographer<br/> Favorist</button>
-						<button id="recent" class="share-btn">Most<br>Recent</button>
-					</div>
-				</div>
-			</div>
-			<div id="nature-tile-img">
-				<div id="img-1">
-					<img src="img/r9.jpg" class="slides-1">
-					<img src="img/f23.jpg" class="slides-1">
-					<img src="img/f13.jpg" class="slides-1">
-				</div>
-				<div id="img-2">
-					<img src="img/f20.jpg" class="slides-2">
-					<img src="img/22.jpg" class="slides-2">
-					<img src="img/IMG_6297.jpg" class="slides-2">
-					
-				</div>
-				<div id="img-3">
-					<img src="img/25.jpg" class="slides-3">
-					<img src="img/8.jpg" class="slides-3">
-					<img src="img/r12.jpg" class="slides-3">
-					
-				</div>
-				<div id="img-4">
-					<img src="img/f26.jpg" class="slides-4">
-					<img src="img/2971.jpg" class="slides-4">
-					<img src="img/f24.jpg" class="slides-4">
-				</div>
-			</div>
-			<div id="nature-tile-btn">
-				<p>for everyone</p>
-				<div id="nature-tile-btn-group">
-					<button >FULL GALLARY</button>
-				</div>
-				
-			</div>
-			
-
-		</div>	
-	</div>
-
-	<div id="mobile-img">
-		<div id="m-img-1">
-			<img src="img/f20.jpg" class="m-slides-1">
-			<img src="img/22.jpg" class="m-slides-1">
-			<img src="img/IMG_6297.jpg" class="m-slides-1">
-		</div>
-		<div id="m-img-2">
-			<img src="img/25.jpg" class="m-slides-2">
-			<img src="img/8.jpg" class="m-slides-2">
-			<img src="img/r12.jpg" class="m-slides-2">
-		</div>
-		<div id="m-img-3">
-			<img src="img/r9.jpg" class="m-slides-3">
-			<img src="img/f23.jpg" class="m-slides-3">
-			<img src="img/f13.jpg" class="m-slides-3">
-			<img src="img/f26.jpg" class="m-slides-3">
-			<img src="img/2971.jpg" class="m-slides-3">
-			<img src="img/f24.jpg" class="m-slides-3">
-		</div>
-		<div id="m-btn">
-			<button>FULL GALLARY</button>
-		</div>
-	</div>
-
-</main>
-<footer>
-	<div class="footer-content">
-		<div class="footer-group">
-		<h2>Share</h2>
-			<ul>
-				<li><a href="https://www.facebook.com/sharer/sharer.php?u=https://danhuang0903.github.io/weihua-studio/" target="_blank"><img src="img/f_logo.png" alt="fb"> Facebook</a></li>
-				<li><a href="https://twitter.com/intent/tweet" target="_blank"><img src="img/t_logo.png" alt="twitter"> Twitter</a></li>
-			</ul>
-			
-		</div>
-		<div class="footer-group">
-			<h2>Association</h2>
-			<ul></ul>
-		</div>
-		<div class="footer-group">
-			<h2>Support</h2>
-			<ul>
-				<li>Copyrights</li>
-				<li>Terms</li>
-			</ul>
-		</div>
-	</div>
-	<div id="rights">
-		<p>© 2022 Dan Huang</p>
-		<p>D-Studio Website Designed & Developed by Dan Huang</p>
-		<p>Photos by Weihua Huang</p>
-	</div>
-</footer>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript">
-
-	$('.nav-toggle').click(function(){
-
-		if($('.menu').css('display') == 'none'){
-			$('.main-header').addClass('is-active');
-			$('.main-header').removeClass('not-active');
-		}else {
-			$('.main-header').addClass('not-active');
-			$('.main-header').removeClass('is-active');
-			$("body").css("max-height","auto");
-			$("body").css("overflow-y","auto");
-			$("html").css("max-height","auto");
-			$("html").css("overflow-y","auto");
-		}
-
-
-	});
-
-	$("#intro-btn").click(function(){
-		$("#d-studio").css("display","block");
-	});
-	$("#modal-close").click(function(){
-		$("#d-studio").css("display","none");
-	});
-
-
-
-	setupSlideSize("slides-1")
-	setupSlide("slides-1", 10500);
-	setupSlideSize("slides-2")
-	setupSlide("slides-2", 9500);
-    setupSlideSize("slides-3")
-	setupSlide("slides-3", 9500);
-	setupSlideSize("slides-4");
-	setupSlide("slides-4", 10500);
-
-	setupSlideSize("m-slides-1")
-	setupSlide("m-slides-1", 10500);
-	setupSlideSize("m-slides-2")
-	setupSlide("m-slides-2", 9500);
-    setupSlideSize("m-slides-3")
-	setupSlide("m-slides-3", 9000);
-
-	setupSlide("ribbon-content",5000)
-
-	function setupSlide(name, interval){
-		var current = 0;
-		var slides = document.getElementsByClassName(name);
-		setInterval(function() {
-	 	for (var i = 0; i < slides.length; i++) {
-	    slides[i].style.opacity = 0;
-	  	}
-		  current = (current != slides.length - 1) ? current + 1 : 0;
-		  slides[current].style.opacity = 1;
-		}, interval);
-	}
-
-	function setupSlideSize(name){
-		var width = $("."+name).parent().css("width");
-		var height = $("."+name).parent().css("height");
-		$("."+name).css("width", width);
-		$("."+name).css("height",height);
-	}
-	
-	$("#about-btn").click(function(){
-		console.log($(window).width());
-		console.log($(".dropdown-content").css("display"));
-		if($(".dropdown-content").css("display") == "none"){
-			$(this).find('i').removeClass('fa-angle-dwon');
-			$(this).find('i').addClass('fa-angle-up');
-			$(".dropdown-content").css("display","grid");
-			$(".dropdown-content").find("div").css("display","block");
-			$("body").css("max-height","100%");
-			$("body").css("overflow-y","hidden");
-			$("html").css("max-height","100%");
-			$("html").css("overflow-y","hidden");
-
-		}else {
-			$(this).find('i').addClass('fa-angle-dwon');
-			$(this).find('i').removeClass('fa-angle-up');
-			$(".dropdown-content").css("display","none");
-			$(".dropdown-content").find("div").css("display","none");
-			$("#us").css("display","none");
-			$("body").css("max-height","auto");
-			$("body").css("overflow-y","auto");
-			$("html").css("max-height","auto");
-			$("html").css("overflow-y","auto");
-
-		}
-		
-	})
-	window.addEventListener("resize", respond);
-
-	function respond(){
-		setupSlideSize("slides-1");
-		setupSlideSize("slides-2");
-		setupSlideSize("slides-3");
-		setupSlideSize("slides-4");
-		setupSlideSize("m-slides-1");
-		setupSlideSize("m-slides-2");
-		setupSlideSize("m-slides-3");
-	}
-
-
-	
-</script>
-</body>
-</html>
