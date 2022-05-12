@@ -3,8 +3,8 @@
 		<div class="footer-group">
 		<h2>Share</h2>
 			<ul>
-				<li><a href="https://www.facebook.com/sharer/sharer.php?u=https://danhuang0903.github.io/weihua-studio/" target="_blank"><img src="<?php echo PUBLIC_PATH . '/img/f_logo.png'; ?>" alt="fb"> Facebook</a></li>
-				<li><a href="https://twitter.com/intent/tweet" target="_blank"><img src="<?php echo PUBLIC_PATH . '/img/t_logo.png'; ?>" alt="twitter"> Twitter</a></li>
+				<li><a href="https://www.facebook.com/sharer/sharer.php?u=https://danhuang0903.github.io/weihua-studio/" target="_blank"><img src="<?php echo url_for('/img/f_logo.png'); ?>" alt="fb"> Facebook</a></li>
+				<li><a href="https://twitter.com/intent/tweet" target="_blank"><img src="<?php echo url_for('/img/t_logo.png'); ?>" alt="twitter"> Twitter</a></li>
 			</ul>
 			
 		</div>
@@ -37,6 +37,6 @@
 	</div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script type="text/javascript" src="<?php echo PUBLIC_PATH . '/js/main.js'; ?>"></script>
+<script type="text/javascript" src="<?php echo url_for('/js/main.js'); ?>"></script>
 </body>
 </html>

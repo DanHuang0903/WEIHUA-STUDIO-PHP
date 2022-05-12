@@ -1,6 +1,7 @@
+<?php require_once('functions.php'); ?>
+
 <?php
 	
-
 	define('PRIVATE_FOLDER', dirname(__FILE__));
 	define('PROJECT_PATH', PRIVATE_FOLDER);
 	$current = $_SERVER['SCRIPT_NAME'];

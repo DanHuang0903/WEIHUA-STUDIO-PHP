@@ -6,7 +6,7 @@
 	<title></title>
 
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400&family=Lato:wght@100&family=Raleway:wght@100;300;400&family=Ubuntu:wght@100;300;400&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="<?php echo PUBLIC_PATH . '/stylesheets/styles.css'; ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo url_for('/stylesheets/styles.css'); ?>">
 	<script src="https://kit.fontawesome.com/0d7e4138be.js" crossorigin="anonymous"></script>
 <body>
 <header class="main-header not-active">
@@ -43,10 +43,10 @@
 		<div class="menu" id="main-nav-menu">
 			<ul class="menu-list" aria-labelledby="menu-toggle">
 				<li class="nav-item">
-				<a href="<?php echo PUBLIC_PATH . '/photographer'; ?>" class="nav-item-link">Photographer</a>
+				<a href="<?php echo url_for('/photographer'); ?>" class="nav-item-link">Photographer</a>
 				</li>
 				<li class="nav-item">
-				<a href="<?php echo PUBLIC_PATH . '/awards'; ?>" class="nav-item-link">Awards</a>
+				<a href="<?php echo url_for('/awards'); ?>" class="nav-item-link">Awards</a>
 				</li>
 				<li class="nav-item">
 					<div class="dropdown">
