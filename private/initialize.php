@@ -6,4 +6,5 @@
 	define('PRIVATE_FOLDER', dirname(__FILE__));
 	define('PROJECT_PATH', PRIVATE_FOLDER);
 
+	$_AWARDS = 83;
 ?>
