@@ -6,20 +6,20 @@
 	<title></title>
 
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400&family=Lato:wght@100&family=Raleway:wght@100;300;400&family=Ubuntu:wght@100;300;400&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="../../public/stylesheets/styles.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo PUBLIC_PATH . '/stylesheets/styles.css'; ?>">
 	<script src="https://kit.fontawesome.com/0d7e4138be.js" crossorigin="anonymous"></script>
 <body>
 <header class="main-header not-active">
 	<a class="ribbon">
 		<div class="ribbon-wrapper">
 			<div class="ribbon-content">
-				<p id="new-count" ><span id="recent-num"></span> Recently Released Photograpic Works</p>
+				<p id="new-count" ><span id="recent-num"><?php echo $_NEW; ?></span> Recently Released Photograpic Works</p>
 			</div>
 			<div class="ribbon-content">
 				<p id="award-count"><span id="award-num"><?php echo $_AWARDS; ?></span> International Awards Gained </p>
 			</div>
 			<div class="ribbon-content">
-				<p id="city-count"><span id="city-num"></span> Cities Visited</p>
+				<p id="city-count"><span id="city-num"><?php echo $_CITIES; ?></span> Cities Visited</p>
 			</div>
 		</div>
 
@@ -37,16 +37,16 @@
 				</div>
 			</div>
 			<div id="logo">
-				<a href="/public"><span class="logo-img"></span></a>
+				<a href="<?php echo PUBLIC_PATH ; ?>"><span class="logo-img"></span></a>
 			</div>
 		</div>
 		<div class="menu" id="main-nav-menu">
 			<ul class="menu-list" aria-labelledby="menu-toggle">
 				<li class="nav-item">
-				<a href="/photographer" class="nav-item-link">Photographer</a>
+				<a href="<?php echo PUBLIC_PATH . '/photographer'; ?>" class="nav-item-link">Photographer</a>
 				</li>
 				<li class="nav-item">
-				<a href="/awards" class="nav-item-link">Awards</a>
+				<a href="<?php echo PUBLIC_PATH . '/awards'; ?>" class="nav-item-link">Awards</a>
 				</li>
 				<li class="nav-item">
 					<div class="dropdown">

@@ -1,12 +1,15 @@
 <?php
 	
-	define('WWW_ROOT', '/WEIHUA-STUDIO-PHP');
-	define('PUBLIC_PATH', WWW_ROOT . '/public');
-	define('PRIVATE_PATH', WWW_ROOT . '/private');
+
 	define('PRIVATE_FOLDER', dirname(__FILE__));
 	define('PROJECT_PATH', PRIVATE_FOLDER);
-	define('PROJECT_FOLDER', dirname(__DIR__));
-	define('PUBLIC_FOLDER', PROJECT_FOLDER . '/public');
+	$current = $_SERVER['SCRIPT_NAME'];
+	$project_end = strpos($current, '/public');
+	$project_root = substr($_SERVER['SCRIPT_NAME'], 0, $project_end);
+	
+	define('WWW_ROOT', $project_root) ;
+	define('PUBLIC_PATH', WWW_ROOT . '/public');
+	define('PRIVATE_PATH', WWW_ROOT . '/private');
 
 	$_AWARDS = 83;
 	$_NEW = 5;
