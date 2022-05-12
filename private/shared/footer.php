@@ -3,7 +3,7 @@
 		<div class="footer-group">
 		<h2>Share</h2>
 			<ul>
-				<li><a href="https://www.facebook.com/sharer/sharer.php?u=https://danhuang0903.github.io/weihua-studio/" target="_blank"><img src="<?php echo PUBLIC_PATH . '/img/f_logo.png';?>" alt="fb"> Facebook</a></li>
+				<li><a href="https://www.facebook.com/sharer/sharer.php?u=https://danhuang0903.github.io/weihua-studio/" target="_blank"><img src="<?php echo PUBLIC_FOLDER . '/img/f_logo.png';?>" alt="fb"> Facebook</a></li>
 				<li><a href="https://twitter.com/intent/tweet" target="_blank"><img src="../../public/img/t_logo.png" alt="twitter"> Twitter</a></li>
 			</ul>
 			
