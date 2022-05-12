@@ -10,7 +10,17 @@
 		</div>
 		<div class="footer-group">
 			<h2>Association</h2>
-			<ul></ul>
+			<ul>
+				<li>
+					<a href="https://psa-photo.org/" target="_blank">Photographic Society of America</a>
+				</li>
+				<li>
+					<a href="https://www.gpuphoto.com/" target="_blank">Global Photographic Union</a>
+				</li>
+				<li>
+					<a href="https://rps.org/" target="_blank">The Royal Photographic Society</a>
+				</li>
+			</ul>
 		</div>
 		<div class="footer-group">
 			<h2>Support</h2>
