@@ -9,4 +9,6 @@
 	define('PUBLIC_FOLDER', PROJECT_FOLDER . '/public');
 
 	$_AWARDS = 83;
+	$_NEW = 5;
+	$_CITIES = 52;
 ?>

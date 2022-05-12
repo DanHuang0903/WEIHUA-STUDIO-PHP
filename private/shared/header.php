@@ -16,7 +16,7 @@
 				<p id="new-count" ><span id="recent-num"></span> Recently Released Photograpic Works</p>
 			</div>
 			<div class="ribbon-content">
-				<p id="award-count"><span id="award-num"></span> Awards Gained </p>
+				<p id="award-count"><span id="award-num"><?php echo $_AWARDS; ?></span> International Awards Gained </p>
 			</div>
 			<div class="ribbon-content">
 				<p id="city-count"><span id="city-num"></span> Cities Visited</p>
