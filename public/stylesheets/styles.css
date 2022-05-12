@@ -561,6 +561,7 @@ html, body{
 	#nature-tile-btn a{
 		text-decoration: none;
 		color: black;
+		font-size: 12px;
 		width: 9rem;
 		padding: 1rem;
 		border-radius: 10px;

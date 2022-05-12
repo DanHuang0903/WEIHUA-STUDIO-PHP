@@ -27,10 +27,10 @@
 		
 		<div class="nature-content">
 			<h2 id="title-1">
-				Moutain, River, Woods, <span class="green-text word-shadow">Nature </span>
+				Moutain, River, Woods, <span class="green-text">Nature </span>
 			</h2>
 			<h2 id="title-2">
-				People, Society, Living, <span class="pink-text word-shadow">Culture</span>
+				People, Society, Living, <span class="pink-text">Culture</span>
 			</h2>
 			<p>
 				life is a journey, photos capture the moments
