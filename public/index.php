@@ -82,7 +82,7 @@
 			<div id="nature-tile-btn">
 				<p>for everyone</p>
 				<div id="nature-tile-btn-group">
-					<a type="button" href="<?php echo PUBLIC_PATH . 'gallery'; ?>">FULL GALLERY</a>
+					<a type="button" href="<?php echo PUBLIC_PATH . '/gallery'; ?>">FULL GALLERY</a>
 				</div>
 				
 			</div>
@@ -111,7 +111,7 @@
 			<img src="img/f24.jpg" class="m-slides-3">
 		</div>
 		<div id="m-btn">
-			<a type="button" href="<?php echo PUBLIC_PATH . 'gallery'; ?>">FULL GALLERY</a>
+			<a type="button" href="<?php echo PUBLIC_PATH . '/gallery'; ?>">FULL GALLERY</a>
 		</div>
 	</div>
 
