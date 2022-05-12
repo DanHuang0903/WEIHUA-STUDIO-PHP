@@ -747,6 +747,10 @@ html, body{
 	.ribbon-wrapper {
 	border-bottom: solid 1px rgba(0, 0, 0, 0.1);
 	}
+	.home-main-content{
+		margin-top: 0;
+		transform: translateY(-30%);
+	}
 	.main-bg::before {
 		transform: translateY(-62%);
 	}
