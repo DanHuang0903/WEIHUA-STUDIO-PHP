@@ -1159,6 +1159,8 @@ html, body{
 		grid-column-end: span mc2;
 		grid-row-start: 1;
 		grid-row-end:span mr2;
+		border-bottom: solid 4px white;
+		border-right: solid 4px white;
 	}
 
 	#m-img-2 {
@@ -1166,6 +1168,7 @@ html, body{
 		grid-column-end: span mc3;
 		grid-row-start: 1;
 		grid-row-end:span mr2;
+		border-bottom: solid 4px white;
 	}
 	#m-img-3 {
 		grid-column-start: 1;
