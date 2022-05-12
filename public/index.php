@@ -7,7 +7,7 @@
 		<div class="main-bg">
 		</div>
 		<div class="home-main-content">
-			<h1>Weihua Photography D-studio</h1>
+			<h1>Weihua Photographic D-studio</h1>
 			<p id="home-main-p">
 				Photographic works by Weihua Huang, reveal the pretty of earth, display diverse cultures of human society. 
 			</p>
@@ -82,7 +82,7 @@
 			<div id="nature-tile-btn">
 				<p>for everyone</p>
 				<div id="nature-tile-btn-group">
-					<a type="button" href="<?php echo 'gallery'; ?>">FULL GALLARY</a>
+					<a type="button" href="<?php echo 'gallery'; ?>">FULL GALLERY</a>
 				</div>
 				
 			</div>
@@ -111,7 +111,7 @@
 			<img src="img/f24.jpg" class="m-slides-3">
 		</div>
 		<div id="m-btn">
-			<a type="button" href="<?php echo 'gallery'; ?>">FULL GALLARY</a>
+			<a type="button" href="<?php echo 'gallery'; ?>">FULL GALLERY</a>
 		</div>
 	</div>
 
