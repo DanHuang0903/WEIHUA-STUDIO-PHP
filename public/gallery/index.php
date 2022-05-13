@@ -1,5 +1,6 @@
 <?php require_once('../../private/initialize.php'); ?>
 
+<?php $page_title = " -- gallery" ;?>
 <?php include(PRIVATE_FOLDER . '/shared/header.php'); ?>
 <main>
 	<div class="home-head">

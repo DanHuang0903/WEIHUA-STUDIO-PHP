@@ -1,4 +1,6 @@
 <?php require_once('../private/initialize.php'); ?>
+
+<?php $page_title = " -- home" ;?>
 <?php include( PRIVATE_FOLDER . '/shared/header.php');?>
 
 

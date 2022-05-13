@@ -1,9 +1,11 @@
+<?php if(!isset($page_title)) $page_title = "" ?>
+
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<title>WeiHua D-studio <?php echo $page_title ;?></title>
 
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400&family=Lato:wght@100&family=Raleway:wght@100;300;400&family=Ubuntu:wght@100;300;400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="<?php echo url_for('/stylesheets/styles.css'); ?>">
