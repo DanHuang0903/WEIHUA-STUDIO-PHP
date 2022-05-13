@@ -7,9 +7,10 @@
 		</div>
 		<div class="home-main-content">
 			<h1>GALLERY <?php echo isset($_GET['group'])?' -- <br/>' . strtoupper($_GET['group']):""?></h1>
-			<p id="home-main-p">
+			<h5 class="content-text">
 				Coming soon
-			</p>
+			</h5>
+			<div class="place-holder"></div>
 		</div>
 	</div>
 </main>
