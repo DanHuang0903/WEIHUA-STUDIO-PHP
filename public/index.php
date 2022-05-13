@@ -49,9 +49,9 @@
 				<div id="share">
 					<p>shortcut</p>
 					<div id="share-content">
-						<a type="button" id="awarded" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('awarded') ; ?>">Awarded<br/> Photography</a>
-						<a type="button" id="fav" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('favorist') ; ?>">Photographer<br/> Favorist</a>
-						<a type="button" id="recent" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('recent') ; ?>">Most<br>Recent</a>
+						<a type="button" id="awarded" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('awarded works') ; ?>">Awarded<br/> Photography</a>
+						<a type="button" id="fav" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('photographer favorist') ; ?>">Photographer<br/> Favorist</a>
+						<a type="button" id="recent" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('most recent') ; ?>">Most<br>Recent</a>
 					</div>
 				</div>
 			</div>
