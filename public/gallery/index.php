@@ -10,8 +10,8 @@
 			<h5 class="content-text">
 				Coming soon
 			</h5>
-			<div class="place-holder"></div>
 		</div>
+		<div class="place-holder"></div>
 	</div>
 </main>
 <?php include(PRIVATE_FOLDER . '/shared/footer.php'); ?>
