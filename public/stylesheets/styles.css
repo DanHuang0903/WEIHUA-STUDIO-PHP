@@ -453,6 +453,8 @@ html, body{
 		background-size: cover;
 	}
 	.share-btn {
+		text-decoration: none;
+		color: black;
 		margin-right: 3rem;
 		width: 10rem;
 		border-radius: 10px;
