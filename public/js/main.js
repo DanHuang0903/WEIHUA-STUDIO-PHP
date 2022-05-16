@@ -104,7 +104,19 @@
 	}
 
 	window.addEventListener("scroll", function(e){
-		if(window.scrollY != 0) {
+		console.log(screen.width);
+		if(window.scrollY > 5) {
 			$("header").css("box-shadow", "8px 0 8px 0 rgba(0, 0, 0, 0.2)");
+			$("header").css("background-color", "white");
+			$(".ribbon").hide("slow");
+		
+
+		}else{
+			$("header").css("box-shadow", "none");
+			if(screen.width > 560){
+				$("header").css("background-color", "rgba(0, 0, 0, 0)");
+			}
+			$(".ribbon").css("display","block");
 		}
+
 	}) ;
