@@ -1,4 +1,4 @@
 <?php 
 	require('../private/initialize.php');
-	echo PUBLIC_PATH;
+	echo PUBLIC_FOLDER;
 ?>

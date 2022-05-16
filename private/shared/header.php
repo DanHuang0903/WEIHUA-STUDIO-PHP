@@ -5,7 +5,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>WeiHua D-studio <?php echo $page_title ;?></title>
+	<title>Weihua D-studio <?php echo h($page_title) ;?></title>
 
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400&family=Lato:wght@100&family=Raleway:wght@100;300;400&family=Ubuntu:wght@100;300;400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="<?php echo url_for('/stylesheets/styles.css'); ?>">
@@ -15,13 +15,13 @@
 	<a class="ribbon">
 		<div class="ribbon-wrapper">
 			<div class="ribbon-content">
-				<p id="new-count" ><span id="recent-num"><?php echo $_NEW; ?></span> Recently Released Photograpic Works</p>
+				<p id="new-count" ><span id="recent-num"></span> Recently Released Photograpic Works</p>
 			</div>
 			<div class="ribbon-content">
-				<p id="award-count"><span id="award-num"><?php echo $_AWARDS; ?></span> International Awards Gained </p>
+				<p id="award-count"><span id="award-num"><?php echo $_AWARDS?></span> International Awards Gained </p>
 			</div>
 			<div class="ribbon-content">
-				<p id="city-count"><span id="city-num"><?php echo $_CITIES; ?></span> Cities Visited</p>
+				<p id="city-count"><span id="city-num"></span> Cities Visited</p>
 			</div>
 		</div>
 

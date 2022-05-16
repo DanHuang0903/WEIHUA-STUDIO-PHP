@@ -1,6 +1,6 @@
 <?php require_once('functions.php'); ?>
-
 <?php
+	
 	
 	define('PRIVATE_FOLDER', dirname(__FILE__));
 	define('PROJECT_PATH', PRIVATE_FOLDER);
@@ -13,6 +13,5 @@
 	define('PRIVATE_PATH', WWW_ROOT . '/private');
 
 	$_AWARDS = 83;
-	$_NEW = 5;
-	$_CITIES = 52;
+
 ?>

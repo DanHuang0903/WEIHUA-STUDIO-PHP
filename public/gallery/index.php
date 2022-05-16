@@ -2,6 +2,7 @@
 
 <?php $page_title = " -- gallery" ;?>
 <?php include(PRIVATE_FOLDER . '/shared/header.php'); ?>
+
 <main>
 	<div class="home-head">
 		<div class="main-bg">
@@ -11,8 +12,14 @@
 			<h5 class="content-text">
 				Coming soon
 			</h5>
+
 		</div>
 		<div class="place-holder"></div>
 	</div>
+	
+
 </main>
+
+
 <?php include(PRIVATE_FOLDER . '/shared/footer.php'); ?>
+
