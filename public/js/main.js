@@ -104,6 +104,7 @@
 	}
 
 
+	
 	window.addEventListener("scroll", function(e){
 		if(window.scrollY > 5) {
 			$("header").css("box-shadow", "8px 0 8px 0 rgba(0, 0, 0, 0.2)");
