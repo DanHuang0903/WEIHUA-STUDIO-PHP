@@ -9,6 +9,13 @@
 			
 		</div>
 		<div class="footer-group">
+			<h2>Support</h2>
+			<ul>
+				<li>Copyrights</li>
+				<li>Terms</li>
+			</ul>
+		</div>
+		<div class="footer-group">
 			<h2>Association</h2>
 			<ul>
 				<li>
@@ -20,13 +27,6 @@
 				<li>
 					<a href="https://rps.org/" target="_blank">The Royal Photographic Society</a>
 				</li>
-			</ul>
-		</div>
-		<div class="footer-group">
-			<h2>Support</h2>
-			<ul>
-				<li>Copyrights</li>
-				<li>Terms</li>
 			</ul>
 		</div>
 	</div>
