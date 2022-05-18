@@ -684,6 +684,172 @@ html, body{
 		text-align: center;
 	}
 
+	/* Gallery page */
+
+ .gallery-wrapper {
+ 	margin-left: 1rem;
+ 	margin-right: 1rem;
+ 	box-shadow: 4px 4px 8px 0 rgb(0, 0, 0, 0.6); 
+ 	background-color: #fff;
+ }
+
+ .gallery-head-content {
+ 	margin-top: 6rem;
+ 	padding: 1rem;
+ 	height: 30rem;
+ 	background-image: url('../img/7220.jpg');
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: top;
+ }
+
+
+ .gallery-head-content h1{
+ 	font-family:'Raleway', serif;
+ 	font-size: 40px;
+ 	color: white;
+ }
+ .gallery-show {
+ 	transform: translateY(-2rem);
+ 	display: flex;
+ 	flex-direction: row;
+ 	flex-wrap: wrap;
+ 	z-index: 10;
+ 	justify-content: center;
+ 	padding-left: 2rem;
+ 	padding-right: 2rem;
+
+ }
+ .gallery-tile {
+ 	width: 18rem;
+ 	height: 25rem;
+ 	margin-left: 1.5rem;
+ 	margin-right: 1.5rem;
+ 	margin-bottom: 1rem;
+ 	margin-top: 1rem;
+ 	box-shadow: 0px 4px 8px 0 rgb(0, 0, 0, 0.3); 
+ 	background-color: #fff;
+ 	flex-grow: 1;
+ 	padding: 1.5rem;
+ 	border-radius: 5px;
+ }
+
+ /* The Modal (background) */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.9); 
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+#close {
+  position: absolute;
+  z-index: 10;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#close:hover,
+#close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#tile1{
+	background-image: url('../img/20.jpg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+
+}
+
+#tile2{
+	background-image: url('../img/25.jpg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+
+}
+#tile3{
+	background-image: url('../img/f13.jpg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+
+}
+
+#tile4{
+	background-image: url('../img/f22.jpg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+
+}
+#tile5{
+	background-image: url('../img/8.jpg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+
+}
+#tile6{
+	background-image: url('../img/r9.jpg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+
+}
+
 
 @media screen and (max-width: 1190px){
 	.ribbon-wrapper {
@@ -1255,6 +1421,7 @@ html, body{
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
+		justify-content: space-between;
 		height: 10rem;
 		padding-top: 0;
 		padding-left: 1rem;

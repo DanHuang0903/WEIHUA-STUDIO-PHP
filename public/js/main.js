@@ -65,17 +65,12 @@
 	}
 	
 	$("#about-btn").click(function(){
-		console.log($(window).width());
-		console.log($(".dropdown-content").css("display"));
 		if($(".dropdown-content").css("display") == "none"){
 			$(this).find('i').removeClass('fa-angle-dwon');
 			$(this).find('i').addClass('fa-angle-up');
 			$(".dropdown-content").css("display","grid");
 			$(".dropdown-content").find("div").css("display","block");
-			$("body").css("max-height","100%");
-			$("body").css("overflow-y","hidden");
-			$("html").css("max-height","100%");
-			$("html").css("overflow-y","hidden");
+			freeze();
 
 		}else {
 			$(this).find('i').addClass('fa-angle-dwon');
@@ -83,14 +78,53 @@
 			$(".dropdown-content").css("display","none");
 			$(".dropdown-content").find("div").css("display","none");
 			$("#us").css("display","none");
-			$("body").css("max-height","auto");
-			$("body").css("overflow-y","auto");
-			$("html").css("max-height","auto");
-			$("html").css("overflow-y","auto");
+			unfreeze();
 
 		}
 		
 	})
+
+//Adding image dynamically
+
+	// $('.gallery-tile').each(function(){
+	// 	if($(this).css('background-image') == 'none'){
+	// 	}
+	// })
+
+//Trigger image modal
+	$('.gallery-tile').each(function(){
+		$(this).click(function(){
+			var url = $(this).css('background-image');
+        	url = url.replace('url(','').replace(')','').replace(/\"/gi, "");
+			$('#myModal').css('display','block');
+			$('#img01').attr('src',url);
+			freeze();
+			$('header').css('display','none');
+
+		});
+
+		$('#close').click(function(){
+			$('#myModal').css('display','none');
+			unfreeze();
+			$('header').css('display','block');
+		})
+	})
+
+
+
+	function freeze(){
+		$("body").css("max-height","100%");
+		$("body").css("overflow-y","hidden");
+		$("html").css("max-height","100%");
+		$("html").css("overflow-y","hidden");
+	}
+
+	function unfreeze(){
+		$("body").css("max-height","auto");
+		$("body").css("overflow-y","auto");
+		$("html").css("max-height","auto");
+		$("html").css("overflow-y","auto");
+	}
 	window.addEventListener("resize", respond);
 
 	function respond(){
@@ -104,11 +138,11 @@
 	}
 
 	window.addEventListener("scroll", function(e){
-		console.log(screen.width);
 		if(window.scrollY > 5) {
 			$("header").css("box-shadow", "8px 0 8px 0 rgba(0, 0, 0, 0.2)");
 			$("header").css("background-color", "white");
 			$(".ribbon").hide("slow");
+		
 		
 
 		}else{
