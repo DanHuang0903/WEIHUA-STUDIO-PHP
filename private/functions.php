@@ -18,4 +18,13 @@
 		return htmlspecialchars($string) ;
 	}
 
+	function root($current) {
+		if(strpos($current, '/public')){
+		$project_end = strpos($current, '/public');
+		}else{
+		$project_end = strpos($current, '/index.php');
+	}
+		return $project_end;
+	}
+
 ?>

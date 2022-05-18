@@ -39,7 +39,7 @@
 				</div>
 			</div>
 			<div id="logo">
-				<a href="<?php echo PUBLIC_PATH ; ?>"><span class="logo-img"></span></a>
+				<a href="<?php echo WWW_ROOT ; ?>"><span class="logo-img"></span></a>
 			</div>
 		</div>
 		<div class="menu" id="main-nav-menu">
