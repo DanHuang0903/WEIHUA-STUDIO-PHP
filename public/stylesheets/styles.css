@@ -693,7 +693,7 @@ html, body{
 	/* Gallery page */
 
  .gallery-wrapper {
- 	height: 100rem;
+ 	max-height: 200rem;
  	margin-left: 1rem;
  	margin-right: 1rem;
  	box-shadow: 4px 4px 8px 0 rgb(0, 0, 0, 0.6); 
