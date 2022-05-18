@@ -715,7 +715,7 @@ html, body{
 
  .gallery-head-content p{
  	font-size: 20px;
- 	
+
  }
 
  .gallery-show {
@@ -1436,7 +1436,7 @@ html, body{
 		padding-left: 1rem;
 		padding-right: 1rem;
 		margin-top: 0;
-		transform: translateY(-10%);
+		transform: translateY(10%);
 		
 	}
 
@@ -1465,5 +1465,17 @@ html, body{
 		padding: 0;
 		margin: 0;
 		font-size: 12px;
+	}
+
+	.gallery-show {
+		flex-direction: column;
+		height: 55rem;
+		overflow: scroll;
+		flex-wrap: wrap;
+	}
+	.gallery-tile {
+		height: 10rem;
+		width: 15rem;
+
 	}
 }
