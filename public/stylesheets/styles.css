@@ -1532,6 +1532,11 @@ html, body{
 		font-size: 12px;
 	}
 
+	.gallery-wrapper{
+		margin-left: 0.5rem;
+		margin-right: 0.5rem;
+	}
+
 	.gallery-show {
 		flex-direction: column;
 		height: 55rem;
@@ -1549,15 +1554,16 @@ html, body{
 	}
 
 	.filters{
-		width: 100%;
+		width: 90%;
 		padding: 0;
 		margin: 0;
-		justify-content: left;
+		justify-content: center;
 
 }
 
 
 	.filter-btn{
+		min-width: 2rem;
 		margin-left: 0.5rem;
 		margin-right: 0.5rem;
 	}
