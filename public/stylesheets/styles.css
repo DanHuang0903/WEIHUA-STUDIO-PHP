@@ -1472,10 +1472,14 @@ html, body{
 		height: 55rem;
 		overflow: scroll;
 		flex-wrap: wrap;
+		padding-left: 1rem;
+ 		padding-right: 1rem;
 	}
 	.gallery-tile {
 		height: 10rem;
 		width: 15rem;
+		margin-left: 1rem;
+ 		margin-right: 1rem;
 
 	}
 }
