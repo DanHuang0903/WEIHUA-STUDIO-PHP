@@ -3,7 +3,7 @@
 <?php $page_title = " -- gallery" ;?>
 <?php include(PRIVATE_FOLDER . '/shared/header.php'); ?>
 
-<main>
+<main id="gallery-main">
 	<div class="gallery-wrapper">
 		<div class="gallery-head">
 				<div class="gallery-head-content">

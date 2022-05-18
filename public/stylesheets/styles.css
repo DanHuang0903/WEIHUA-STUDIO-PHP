@@ -319,6 +319,7 @@ html, body{
 		overflow: hidden;
 		border-radius: 12px;
 		box-shadow: 0px 10px 6px #888;
+
 	}
 	.bg-img {
 		background-image: url("../img/nature_img2.png");
@@ -626,9 +627,14 @@ html, body{
 	#mobile-img {
 		display: none;
 	}
+
+	#home-main{
+		margin-bottom: 25%;
+	}
+
 	.footer-content{
 		height: 10rem;
-		margin-top: 25%;
+		margin-top: 15%;
 		padding-left: 10rem;
 		padding-right: 10rem ;
 		display: flex;
@@ -687,10 +693,12 @@ html, body{
 	/* Gallery page */
 
  .gallery-wrapper {
+ 	max-height: 200rem;
  	margin-left: 1rem;
  	margin-right: 1rem;
  	box-shadow: 4px 4px 8px 0 rgb(0, 0, 0, 0.6); 
  	background-color: #fff;
+ 	overflow: auto;
  }
 
  .gallery-head-content {
@@ -728,6 +736,7 @@ html, body{
  	justify-content: center;
  	padding-left: 2rem;
  	padding-right: 2rem;
+ 	max-height: 120rem;
 
  }
  .gallery-tile {
@@ -1491,6 +1500,10 @@ html, body{
 		animation: gradient 5s ease;
 	}
 
+		#home-main{
+		margin-bottom: 0;
+	}
+
 	.footer-content {
 		display: flex;
 		flex-direction: row;
@@ -1501,7 +1514,7 @@ html, body{
 		padding-left: 1rem;
 		padding-right: 1rem;
 		margin-top: 0;
-		transform: translateY(10%);
+		transform: translateY(20%);
 		
 	}
 
@@ -1524,6 +1537,7 @@ html, body{
 		width: 100%;
 		padding: 0;
 		margin: 0;
+		transform: translateY(50%);
 	}
 
 	#rights p {
@@ -1566,6 +1580,10 @@ html, body{
 		min-width: 2rem;
 		margin-left: 0.5rem;
 		margin-right: 0.5rem;
+	}
+
+	#gallery-main{
+		margin-bottom: 10%;
 	}
 
 }

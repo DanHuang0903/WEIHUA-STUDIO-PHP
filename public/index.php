@@ -4,7 +4,7 @@
 <?php include( PRIVATE_FOLDER . '/shared/header.php');?>
 
 
-<main>
+<main id="home-main">
 	<div class="home-head">
 		<div class="main-bg">
 		</div>
