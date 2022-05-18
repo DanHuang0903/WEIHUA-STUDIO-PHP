@@ -693,7 +693,7 @@ html, body{
 	/* Gallery page */
 
  .gallery-wrapper {
- 	max-height: 200rem;
+ 	height: 100rem;
  	margin-left: 1rem;
  	margin-right: 1rem;
  	box-shadow: 4px 4px 8px 0 rgb(0, 0, 0, 0.6); 
@@ -736,9 +736,9 @@ html, body{
  	justify-content: center;
  	padding-left: 2rem;
  	padding-right: 2rem;
- 	max-height: 120rem;
-
+ 	overflow: auto;
  }
+
  .gallery-tile {
  	width: 18rem;
  	height: 25rem;
