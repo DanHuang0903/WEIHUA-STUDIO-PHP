@@ -24,7 +24,7 @@
 		</div>
 	
 	</div>
-	<div class="nature">
+	<div class="stories">
 		<div class="bg-img"></div>
 		
 		<div class="nature-content">
@@ -51,9 +51,9 @@
 				<div id="share">
 					<p>shortcut</p>
 					<div id="share-content">
-						<a type="button" id="awarded" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('awarded works') ; ?>">Awarded<br/> Photography</a>
-						<a type="button" id="fav" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('photographer favorist') ; ?>">Photographer<br/> Favorist</a>
-						<a type="button" id="recent" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('most recent') ; ?>">Most<br>Recent</a>
+						<a type="button" id="awarded" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('awarded') ; ?>">Awarded<br/> Photography</a>
+						<a type="button" id="fav" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('favorist') ; ?>">Photographer<br/> Favorist</a>
+						<a type="button" id="recent" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('recent') ; ?>">Most<br>Recent</a>
 					</div>
 				</div>
 			</div>
@@ -84,7 +84,7 @@
 			<div id="nature-tile-btn">
 				<p>for everyone</p>
 				<div id="nature-tile-btn-group">
-					<a type="button" href="<?php echo url_for('/gallery'); ?>">FULL GALLERY</a>
+					<a type="button" href="<?php echo url_for('/gallery/index.php?group=all'); ?>">FULL GALLERY</a>
 				</div>
 				
 			</div>
@@ -113,7 +113,7 @@
 			<img src="img/f24.jpg" class="m-slides-3">
 		</div>
 		<div id="m-btn">
-			<a type="button" href="<?php echo url_for('/gallery'); ?>">FULL GALLERY</a>
+			<a type="button" href="<?php echo url_for('/gallery/index.php?group=all'); ?>">FULL GALLERY</a>
 		</div>
 	</div>
 

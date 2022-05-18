@@ -312,7 +312,7 @@ html, body{
 		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	}
 
-	.nature {
+	.stories {
 		position: relative;
 		transform: translateY(30%);
 		width: 100%;
@@ -694,6 +694,7 @@ html, body{
  }
 
  .gallery-head-content {
+ 	position: relative;
  	margin-top: 6rem;
  	padding: 1rem;
  	height: 30rem;
@@ -858,6 +859,70 @@ html, body{
 	background-origin: content-box;
 
 }
+#tile7{
+	background-image: url('../img/7225.jpg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+
+}
+#tile8{
+	background-image: url('../img/7222.jpg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+
+}
+#tile9{
+	background-image: url('../img/7223.jpg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+
+}
+#tile10{
+	background-image: url('../img/7224.jpg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+
+}
+
+.filters {
+	position: absolute;
+	bottom: 4rem;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	padding-left: 15%;
+	padding-right: 15%;
+
+	
+}
+
+.filter-btn {
+		text-decoration: none;
+		color: white;
+		background-color: #373737;
+		margin-left: 1.5rem;
+		margin-right: 1.5rem;
+		margin-top: 1rem;
+		border-radius: 20px;
+		border: solid 0.5px #fff;
+		padding: 0.5rem;
+		font-family: 'Raleway';
+		font-size: 13px;
+		text-transform: uppercase;
+		justify-content: center;
+
+}
+
 
 
 @media screen and (max-width: 1190px){
@@ -871,7 +936,7 @@ html, body{
 	.main-bg::before {
 		transform: translateY(-52%);
 	}
-	.nature {
+	.stories {
 		transform: translateY(20%);
 
 	}
@@ -891,7 +956,7 @@ html, body{
 	.main-bg::before {
 		transform: translateY(-58%);
 	}
-	.nature {
+	.stories {
 		transform: translateY(10%);
 
 	}
@@ -1188,7 +1253,7 @@ html, body{
 		display: none;
 	}
 
-	.nature {
+	.stories {
 		transform: translateY(-10%);
 		background-image: none;
 		width: 100%;
@@ -1482,4 +1547,19 @@ html, body{
  		margin-right: 1rem;
 
 	}
+
+	.filters{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		justify-content: left;
+
+}
+
+
+	.filter-btn{
+		margin-left: 0.5rem;
+		margin-right: 0.5rem;
+	}
+
 }
