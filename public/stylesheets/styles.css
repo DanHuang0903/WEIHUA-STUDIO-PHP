@@ -701,14 +701,23 @@ html, body{
  	background-size: cover;
  	background-repeat: no-repeat;
  	background-position: top;
+ 	text-align: center;
+ 	font-family:'Raleway', serif;
+ 	color: white;
  }
 
 
  .gallery-head-content h1{
- 	font-family:'Raleway', serif;
- 	font-size: 40px;
- 	color: white;
+ 	font-size: 50px;
+ 	font-weight: lighter;
+ 	top: 40%;
  }
+
+ .gallery-head-content p{
+ 	font-size: 20px;
+ 	
+ }
+
  .gallery-show {
  	transform: translateY(-2rem);
  	display: flex;

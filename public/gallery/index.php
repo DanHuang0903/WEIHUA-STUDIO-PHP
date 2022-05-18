@@ -7,7 +7,8 @@
 	<div class="gallery-wrapper">
 		<div class="gallery-head">
 				<div class="gallery-head-content">
-					<h1>Gallery</h1>
+					<h1>GALLERY</h1>
+					<p><?php echo strtoupper(h($_GET['group'])); ?></p>
 				</div>
 		</div>
 		<div class="gallery-show">
