@@ -2,7 +2,7 @@ html,body{
 		max-width: 100% !important;
 		overflow-x: hidden !important;
 		margin-top: 0;
-		overscroll-behavior: none;
+		overscroll-behavior: auto;
 		-webkit-overflow-scrolling: touch;
 	}
 
@@ -700,7 +700,7 @@ html,body{
  	margin-right: 1rem;
  	box-shadow: 4px 4px 8px 0 rgb(0, 0, 0, 0.6); 
  	background-color: #fff;
- 	
+ 	overflow: auto;
  }
 
  .gallery-head-content {
