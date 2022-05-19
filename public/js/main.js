@@ -115,12 +115,13 @@
 	function filter(array){
 		array.forEach(function(a){
 			$('.gallery-tile').each(function(){
-				if($(this).hasClass(a)){
-					$(this).css('display','block');
-				}else{
-					$(this).css('display','none');
-				}
-			}) ;
+			if($(this).hasClass(a)){
+				$(this).css('display','block');
+			}else{
+				$(this).css('display','none');
+			}
+		}) ;
+			
 		}) ;
 	}
 

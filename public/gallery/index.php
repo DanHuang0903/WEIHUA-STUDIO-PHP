@@ -38,6 +38,13 @@
 			<div class="gallery-tile recent" id="tile8"></div>
 			<div class="gallery-tile awarded" id="tile9"></div>
 			<div class="gallery-tile recent" id="tile10"></div>
+			<div class="gallery-tile"></div>
+			<div class="gallery-tile"></div>
+			<div class="gallery-tile"></div>
+			<div class="gallery-tile"></div>
+			<div class="gallery-tile"></div>
+			<div class="gallery-tile"></div>
+			<div class="gallery-tile"></div>
 		</div>
 		<!-- Image Modal -->
 		<div id="myModal" class="modal">
@@ -65,5 +72,6 @@
 		tags.push(tag);
 		filter(tags);
 	}
+
 	
 </script>
