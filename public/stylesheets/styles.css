@@ -1583,10 +1583,12 @@ html,body{
 
 
 	.filter-btn{
-		min-width: 2rem;
+		min-width: 3rem;
 		margin-left: 0.5rem;
 		margin-right: 0.5rem;
+		padding: 0.3rem;
 		font-size: 10px;
+		border-radius: 10px;
 	}
 
 	#gallery-main{
