@@ -3,7 +3,7 @@ html,body{
 		overflow-x: hidden !important;
 		margin-top: 0;
 		overscroll-behavior: none;
-		-webkit-overflow-scrolling: auto;
+		-webkit-overflow-scrolling: touch;
 	}
 
 	header {
