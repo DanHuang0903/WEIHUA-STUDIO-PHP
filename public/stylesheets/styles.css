@@ -5,7 +5,9 @@ html,body{
 		overscroll-behavior: auto;
 		scroll-behavior: auto; 
 		-webkit-overflow-scrolling: touch;
+
 	}
+
 
 	header {
 		width: 100%;
@@ -1589,6 +1591,8 @@ html,body{
 		margin-bottom: 10%;
 	}
 
-
+	::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
 
 }
