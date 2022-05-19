@@ -4,13 +4,15 @@
 		if($('.menu').css('display') == 'none'){
 			$('.main-header').addClass('is-active');
 			$('.main-header').removeClass('not-active');
+			freeze()
 		}else {
 			$('.main-header').addClass('not-active');
 			$('.main-header').removeClass('is-active');
-			$("body").css("max-height","auto");
-			$("body").css("overflow-y","auto");
-			$("html").css("max-height","auto");
-			$("html").css("overflow-y","auto");
+			unfreeze();
+			// $("body").css("max-height","auto");
+			// $("body").css("overflow-y","auto");
+			// $("html").css("max-height","auto");
+			// $("html").css("overflow-y","auto");
 		}
 
 
