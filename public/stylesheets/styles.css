@@ -252,6 +252,8 @@ html,body{
 	  text-decoration: none;
 	  cursor: pointer;
 	}
+
+
 	.main-bg {
 		position: relative;
 		margin-bottom: 15rem;
@@ -624,9 +626,14 @@ html,body{
 	}
 
 	#home-main{
+		overflow: auto;
 		margin-bottom: 25%;
 	}
 
+	footer{
+
+		overflow: auto;
+	}
 	.footer-content{
 		height: 10rem;
 		margin-top: 15%;
