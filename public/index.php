@@ -58,24 +58,24 @@
 				</div>
 			</div>
 			<div id="nature-tile-img">
-				<div id="img-1">
+				<div id="img-1" class="slides-img">
 					<img src="img/r9.jpg" class="slides-1">
 					<img src="img/f23.jpg" class="slides-1">
 					<img src="img/f13.jpg" class="slides-1">
 				</div>
-				<div id="img-2">
+				<div id="img-2" class="slides-img">
 					<img src="img/f20.jpg" class="slides-2">
 					<img src="img/22.jpg" class="slides-2">
 					<img src="img/IMG_6297.jpg" class="slides-2">
 					
 				</div>
-				<div id="img-3">
+				<div id="img-3" class="slides-img">
 					<img src="img/25.jpg" class="slides-3">
 					<img src="img/8.jpg" class="slides-3">
 					<img src="img/r12.jpg" class="slides-3">
 					
 				</div>
-				<div id="img-4">
+				<div id="img-4" class="slides-img">
 					<img src="img/f26.jpg" class="slides-4">
 					<img src="img/2971.jpg" class="slides-4">
 					<img src="img/f24.jpg" class="slides-4">
@@ -94,17 +94,17 @@
 	</div>
 
 	<div id="mobile-img">
-		<div id="m-img-1">
+		<div id="m-img-1" class="slides-img">
 			<img src="img/f20.jpg" class="m-slides-1">
 			<img src="img/22.jpg" class="m-slides-1">
 			<img src="img/IMG_6297.jpg" class="m-slides-1">
 		</div>
-		<div id="m-img-2">
+		<div id="m-img-2" class="slides-img">
 			<img src="img/25.jpg" class="m-slides-2">
 			<img src="img/8.jpg" class="m-slides-2">
 			<img src="img/r12.jpg" class="m-slides-2">
 		</div>
-		<div id="m-img-3">
+		<div id="m-img-3" class="slides-img">
 			<img src="img/r9.jpg" class="m-slides-3">
 			<img src="img/f23.jpg" class="m-slides-3">
 			<img src="img/f13.jpg" class="m-slides-3">
@@ -116,6 +116,19 @@
 			<a type="button" href="<?php echo url_for('/gallery/index.php?group=all'); ?>">FULL GALLERY</a>
 		</div>
 	</div>
+
+	<!-- Image Modal -->
+		<div id="homeModal" class="modal">
+		<!-- The Close Button -->
+		  <span id="homeClose">&times;</span>
+		  <!-- Modal Content (The Image) -->
+		  <img class="modal-content" id="img00">
+
+		  
+
+		  <!-- Modal Caption (Image Text) -->
+		  <div id="homeCaption"></div>
+		</div>
 
 </main>
 

@@ -28,20 +28,20 @@
 
 
 	setupSlideSize("slides-1")
-	setupSlide("slides-1", 10500);
+	setupSlide("slides-1", 7500);
 	setupSlideSize("slides-2")
-	setupSlide("slides-2", 9500);
+	setupSlide("slides-2", 8500);
     setupSlideSize("slides-3")
-	setupSlide("slides-3", 9500);
+	setupSlide("slides-3", 8500);
 	setupSlideSize("slides-4");
-	setupSlide("slides-4", 10500);
+	setupSlide("slides-4", 7500);
 
 	setupSlideSize("m-slides-1")
-	setupSlide("m-slides-1", 10500);
+	setupSlide("m-slides-1", 8500);
 	setupSlideSize("m-slides-2")
-	setupSlide("m-slides-2", 9500);
+	setupSlide("m-slides-2", 7500);
     setupSlideSize("m-slides-3")
-	setupSlide("m-slides-3", 9000);
+	setupSlide("m-slides-3", 7000);
 
 	setupSlide("ribbon-content",5000)
 
@@ -51,10 +51,12 @@
 		setInterval(function() {
 	 	for (var i = 0; i < slides.length; i++) {
 	    slides[i].style.opacity = 0;
+	    slides[current].classList.remove("on");
 	  	}
 		  current = (current != slides.length - 1) ? current + 1 : 0;
 		  if(slides[current]) {
 		  	slides[current].style.opacity = 1;
+		  	slides[current].classList.add("on");
 		  }
 		}, interval);
 	}
@@ -94,22 +96,36 @@
 	// })
 
 //Trigger image modal
-	$('.gallery-tile').each(function(){
+	function zoomImage(images,modalId, imageId, btnId){
+		$('.' + images).each(function(){
+
 		$(this).click(function(){
-			var url = $(this).find('img').attr('src');
-			$('#myModal').css('display','block');
-			$('#img01').attr('src',url);
+
+			var url = null;
+			url = $(this).find('.on').attr('src');
+			if(url == null){
+				url = $(this).find('img').attr('src');
+			}
+			//var url = $(this).find('img').attr('src');
+			$('#' + modalId).css('display','block');
+			$('#' + imageId).attr('src',url);
 			freeze();
 			$('header').css('display','none');
+			console.log(url);
 
 		});
 
-		$('#close').click(function(){
-			$('#myModal').css('display','none');
+		$('#' + btnId).click(function(){
+			$('#' + modalId).css('display','none');
 			unfreeze();
 			$('header').css('display','block');
-		})
-	})
+		});
+	});
+	}
+	
+
+	zoomImage('gallery-tile','myModal','img01','close');
+	zoomImage('slides-img','homeModal','img00','homeClose');
 
 	function filter(array){
 		array.forEach(function(a){
