@@ -52,12 +52,12 @@ html,body{
 
 	.entr-btn-div {
 		margin-top: 4%;
-		animation: slide-up 5s linear;
+		animation: slide-up 4s linear;
 	}
 
 	.title-logo{
 		margin-top: 5%;
-		animation: slide-down 5S linear;
+		animation: slide-down 4S linear;
 	}
 
 	#entr-btn {
