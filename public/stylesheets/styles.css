@@ -744,8 +744,6 @@ html,body{
 		margin-top: 10%;
 	}
 	.footer-content{
-		
-		
 		padding-left: 10rem;
 		padding-right: 10rem ;
 		display: flex;
@@ -851,8 +849,7 @@ html,body{
  }
 
  .gallery-tile {
- 	width: 15rem;
- 	height: 20rem;
+ 	height: 200px;
  	margin-left: 1.5rem;
  	margin-right: 1.5rem;
  	margin-bottom: 1rem;
@@ -862,7 +859,7 @@ html,body{
  	align-items: center;
  	text-align: center;
  	flex-grow: 1;
- 	padding: 1.5rem;
+ 	padding: 20px;
  	border-radius: 5px;
  	display: flex;
  	justify-content: center;
@@ -979,6 +976,74 @@ html,body{
 }
 
 
+/* Photographer page */
+
+.personal-wrapper{
+		padding-top: 10%;
+		background-image: url('../img/personal-bg.png') ;
+		background-size: cover;
+		background-repeat: no-repeat;
+}
+
+.personal-canvas {
+	margin-left: 1rem;
+	margin-right: 1rem;
+	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+}
+.personal-head{
+	display: flex;
+	flex-direction: row;
+	background-color: #333;
+}
+
+#personal-img{
+	padding: 2rem;
+}
+#personal-img img{
+	width: 30rem;
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+#personal-content{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+}
+
+#head-word {
+	font-family: 'Raleway', serif;
+	font-size: 45px;
+	color: white;
+	padding-bottom: 0;
+	margin-bottom: 0.5rem;
+}
+#sub-title{
+	font-family: 'Raleway', serif;
+	font-size: 25px;
+	font-weight: lighter;
+	color: white;
+}
+
+#divider{
+	border-top: solid 1px white;
+	width: 5rem;
+}
+
+#personal-intro{
+	font-family: 'Raleway', serif;
+	font-size: 18px;
+	font-weight: lighter;
+	color: white;
+}
+
+.personal-story{
+	height: 15rem;
+	background-color: white;
+}
 
 @media screen and (max-width: 1190px){
 	.ribbon-wrapper {
@@ -1639,8 +1704,7 @@ html,body{
  		justify-content: space-between;
 	}
 	.gallery-tile {
-		height: 10rem;
-		width: 15rem;
+		width: 180px;
 		margin-left: 1rem;
  		margin-right: 1rem;
 

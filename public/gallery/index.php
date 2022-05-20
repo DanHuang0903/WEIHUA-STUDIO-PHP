@@ -30,7 +30,7 @@
 		<div class="gallery-show">
 			<div class="gallery-tile nature awarded favorist"><img src="../img/20.jpg"></div>
 			<div class="gallery-tile culture"><img src="../img/25.jpg"></div>
-			<div class="gallery-tile nature"><img src="../img/f13.jpg"></div>
+			<div class="gallery-tile nature"><img src="../img/1306.jpg"></div>
 			<div class="gallery-tile nature"><img src="../img/f22.jpg"></div>
 			<div class="gallery-tile culture-img favorist"><img src="../img/r9.jpg"></div>
 			<div class="gallery-tile portrait awarded favorist"><img src="../img/8.jpg"></div>
