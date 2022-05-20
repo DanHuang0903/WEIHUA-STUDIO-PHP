@@ -1751,6 +1751,7 @@ html,body{
 		margin-right: 0;
 	}
 	.personal-head{
+		background-image: linear-gradient(#aaa, #333);
 
 	}
 	#personal-img{
