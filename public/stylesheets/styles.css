@@ -1763,11 +1763,9 @@ html,body{
 	}
 	#head-word{
 		font-size: 30px;
-		font-weight: lighter;
 	}
 	#sub-title{
 		font-size: 13px;
-		font-weight: bold;
 		padding-left: 0;
 		padding-right: 0;
 		margin-left: 0;
@@ -1783,8 +1781,7 @@ html,body{
 		margin: 0;
 		text-align: center;
 		font-family: 'Raleway', serif;
-		font-size: 18px;
-		font-weight: lighter;
+		font-size: 15px;
 		color: white;
 		word-spacing: 5px;
 	}
