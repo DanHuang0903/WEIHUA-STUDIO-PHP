@@ -28,16 +28,16 @@
 				
 		</div>
 		<div class="gallery-show">
-			<div class="gallery-tile nature awarded favorist" id="tile1"></div>
-			<div class="gallery-tile culture" id="tile2"></div>
-			<div class="gallery-tile nature" id="tile3"></div>
-			<div class="gallery-tile nature" id="tile4"></div>
-			<div class="gallery-tile portrait awarded favorist" id="tile5"></div>
-			<div class="gallery-tile culture-img favorist" id="tile6"></div>
-			<div class="gallery-tile recent" id="tile7"></div>
-			<div class="gallery-tile recent" id="tile8"></div>
-			<div class="gallery-tile awarded" id="tile9"></div>
-			<div class="gallery-tile recent" id="tile10"></div>
+			<div class="gallery-tile nature awarded favorist"><img src="../img/20.jpg"></div>
+			<div class="gallery-tile culture"><img src="../img/25.jpg"></div>
+			<div class="gallery-tile nature"><img src="../img/f13.jpg"></div>
+			<div class="gallery-tile nature"><img src="../img/f22.jpg"></div>
+			<div class="gallery-tile culture-img favorist"><img src="../img/r9.jpg"></div>
+			<div class="gallery-tile portrait awarded favorist"><img src="../img/8.jpg"></div>
+			<div class="gallery-tile recent"><img src="../img/7225.jpg"></div>
+			<div class="gallery-tile recent"><img src="../img/7222.jpg"></div>
+			<div class="gallery-tile awarded"><img src="../img/7223.jpg"></div>
+			<div class="gallery-tile recent"><img src="../img/7224.jpg"></div>
 			<div class="gallery-tile"></div>
 			<div class="gallery-tile"></div>
 			<div class="gallery-tile"></div>

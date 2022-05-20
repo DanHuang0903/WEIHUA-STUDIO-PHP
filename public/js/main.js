@@ -96,8 +96,7 @@
 //Trigger image modal
 	$('.gallery-tile').each(function(){
 		$(this).click(function(){
-			var url = $(this).css('background-image');
-        	url = url.replace('url(','').replace(')','').replace(/\"/gi, "");
+			var url = $(this).find('img').attr('src');
 			$('#myModal').css('display','block');
 			$('#img01').attr('src',url);
 			freeze();
@@ -125,6 +124,31 @@
 		}) ;
 	}
 
+	setImageSize();
+	function setImageSize(){
+		$('.gallery-tile').each(function(){
+		var width = $(this).find('img').css('width');
+		var height = $(this).find('img').css('height');
+
+		if(width > height){
+			if($(window).width() > 600){
+				$(this).css('width','30rem');
+			}else{
+				$(this).css('width','20rem');
+			}
+			
+		}else{
+			if($(window).width() > 600){
+				$(this).css('width','15rem');
+			}else{
+				$(this).css('width','20rem');
+			}
+
+		}
+	}) ;
+	}
+	
+
 	function freeze(){
 		$("body").css("max-height","100%");
 		$("body").css("overflow-y","hidden");
@@ -148,6 +172,7 @@
 		setupSlideSize("m-slides-1");
 		setupSlideSize("m-slides-2");
 		setupSlideSize("m-slides-3");
+		setImageSize();
 	}
 
 	window.addEventListener("scroll", function(e){
