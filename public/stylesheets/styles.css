@@ -468,17 +468,17 @@ html,body{
 		margin-top: 1rem;
 		position: relative;
 		border: 1px solid rgba(0,0,0,0.1);
-	    background-clip: padding-box;
-	    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1);
-	    border-radius: 12px;
-	    overflow: visible;
-	    height: 36em;
-	    width: 90%;
-	    float: right;
-	    padding: 0;
-	    display: grid;
-	    grid-template-columns: [first]60% [second]40%[end];
-	    grid-template-rows: [line1]80% [line2]20%[line3];;
+    background-clip: padding-box;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: visible;
+    height: 36em;
+    width: 90%;
+    float: right;
+    padding: 0;
+    display: grid;
+    grid-template-columns: [first]60% [second]40%[end];
+    grid-template-rows: [line1]80% [line2]20%[line3];;
 	}
 
 	#nature-tile-words {
@@ -489,8 +489,8 @@ html,body{
 		border-radius: 12px 0 0 12px;
 		display: grid;
 		grid-template-columns: [c1]100%[c2];
-	    grid-template-rows: [r1]40% [r2]40%[r3]auto[r4];
-	    overflow: hidden;
+	  grid-template-rows: [r1]40% [r2]40%[r3]auto[r4];
+	  overflow: hidden;
 	}
 
 	#logo-story {
@@ -1763,9 +1763,11 @@ html,body{
 	}
 	#head-word{
 		font-size: 30px;
+		font-weight: lighter;
 	}
 	#sub-title{
 		font-size: 13px;
+		font-weight: bold;
 		padding-left: 0;
 		padding-right: 0;
 		margin-left: 0;
@@ -1781,8 +1783,9 @@ html,body{
 		margin: 0;
 		text-align: center;
 		font-family: 'Raleway', serif;
-		font-size: 15px;
+		font-size: 18px;
 		font-weight: lighter;
 		color: white;
+		word-spacing: 5px;
 	}
 }
