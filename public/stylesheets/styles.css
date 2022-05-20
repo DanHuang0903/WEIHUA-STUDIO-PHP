@@ -1690,8 +1690,8 @@ html,body{
 	}
 
 	.gallery-wrapper{
-		margin-left: 0.2rem;
-		margin-right: 0.2rem;
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 	.gallery-show {
