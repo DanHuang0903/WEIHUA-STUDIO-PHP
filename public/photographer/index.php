@@ -2,7 +2,6 @@
 <?php include(PRIVATE_FOLDER . '/shared/header.php'); ?>
 
 <main id="personal-main">
-	<div class="personal-wrapper">
 		<div class="personal-canvas">
 		<div class="personal-head">
 			<div id="personal-img">
@@ -17,14 +16,15 @@
 				</div>
 			</div>
 		</div>
+		<div class="mobile-personal-intro">
+			<p>Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder</p>
+		</div>
 		<div class="personal-story">
 			<div></div>
 			<div><img src=""></div>
 		</div>
 	</div>
 
-		
-	</div>
 </main>
 
 <?php include(PRIVATE_FOLDER . '/shared/footer.php'); ?>

@@ -978,11 +978,18 @@ html,body{
 
 /* Photographer page */
 
-.personal-wrapper{
-		padding-top: 10%;
+.mobile-personal-intro{
+	display: none;
+}
+
+#personal-main {
+	padding-top: 10%;
 		background-image: url('../img/personal-bg.png') ;
 		background-size: cover;
 		background-repeat: no-repeat;
+}
+.personal-wrapper{
+		
 }
 
 .personal-canvas {
@@ -1034,6 +1041,7 @@ html,body{
 }
 
 #personal-intro{
+	display: block;
 	font-family: 'Raleway', serif;
 	font-size: 18px;
 	font-weight: lighter;
@@ -1737,4 +1745,44 @@ html,body{
     -webkit-appearance: none;
 }
 
+	.personal-canvas{
+		margin-top: 15%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.personal-head{
+
+	}
+	#personal-img{
+		padding: 1rem;
+	}
+	#personal-img img{
+		width: 10rem;
+	}
+	#personal-content {
+	}
+	#head-word{
+		font-size: 30px;
+	}
+	#sub-title{
+		font-size: 13px;
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#personal-intro{
+		display: none;
+	}
+	.mobile-personal-intro{
+		display: block;
+		background-color: #333;
+		padding: 2rem;
+		margin: 0;
+		text-align: center;
+		font-family: 'Raleway', serif;
+		font-size: 15px;
+		font-weight: lighter;
+		color: white;
+	}
 }
