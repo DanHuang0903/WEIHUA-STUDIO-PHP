@@ -138,6 +138,7 @@
 		}) ;
 			
 		}) ;
+		setImageSize();
 	}
 
 	setImageSize();
@@ -198,6 +199,9 @@
 		$("html").css("max-height","auto");
 		$("html").css("overflow-y","auto");
 	}
+
+
+
 	window.addEventListener("resize", respond);
 
 	function respond(){

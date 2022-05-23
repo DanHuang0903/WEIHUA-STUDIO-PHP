@@ -2,8 +2,8 @@ html,body{
 		max-width: 100% !important;
 		overflow-x: hidden !important;
 		margin-top: 0;
-		overscroll-behavior: auto;
-		scroll-behavior: auto; 
+		overscroll-behavior: none;
+		scroll-behavior: none; 
 		-webkit-overflow-scrolling: touch;
 
 	}
@@ -807,7 +807,7 @@ html,body{
  	margin-right: 1rem;
  	box-shadow: 4px 4px 8px 0 rgb(0, 0, 0, 0.6); 
  	background-color: #fff;
- 	overflow: auto;
+ 	
  }
 
  .gallery-head-content {
@@ -838,6 +838,7 @@ html,body{
 
  .gallery-show {
  	transform: translateY(-2rem);
+ 	max-height: 150rem;
  	display: flex;
  	flex-direction: row;
  	flex-wrap: wrap;
@@ -846,7 +847,10 @@ html,body{
  	padding-left: 2rem;
  	padding-right: 2rem;
  	overflow: auto;
+ 
  }
+
+
 
  .gallery-tile {
  	height: 200px;

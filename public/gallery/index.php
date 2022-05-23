@@ -46,6 +46,8 @@
 			<div class="gallery-tile"></div>
 			<div class="gallery-tile"></div>
 		</div>
+
+
 		<!-- Image Modal -->
 		<div id="myModal" class="modal">
 		<!-- The Close Button -->
