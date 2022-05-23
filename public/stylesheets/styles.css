@@ -1566,6 +1566,7 @@ html,body{
 	#studio, #logo-story, #belief {
 		margin-left: 0.5rem;
 		padding-right: 0.5rem;
+		border-radius: 0 0 0 0;
 
 	}
 
