@@ -853,7 +853,7 @@ html,body{
 
 
  .gallery-tile {
- 	height: 200px;
+ 	max-height: 200px;
  	margin-left: 1.5rem;
  	margin-right: 1.5rem;
  	margin-bottom: 1rem;
@@ -1723,7 +1723,7 @@ html,body{
 		flex-wrap: wrap;
 		padding-left: 1rem;
  		padding-right: 1rem;
- 		justify-content: space-between;
+ 		justify-content: flex-start;
 	}
 	.gallery-tile {
 		width: 180px;

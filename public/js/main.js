@@ -153,21 +153,24 @@
 			div_w = parseFloat(div_w.substring(0, div_w.length - 2));
 			ratio = width/height;
 		}
-		console.log(ratio);
 
 		if(width > height){
 			if($(window).width() > 600){
-				$(this).css('width', (div_h-40)*ratio + 'px');
+				$(this).css('width', (div_h-20)*ratio + 'px');
+				$(this).css('max-width', (div_h+20)*ratio + 'px');
 	
 			}else{
 				$(this).css('height', (div_w-20)/ratio + 'px');
+				$(this).css('max-height', (div_w+20)/ratio + 'px');
 			}
 			
 		}else{
 			if($(window).width() > 600){
 				$(this).css('width', (div_h-40)*ratio + 'px');
+				$(this).css('max-width', (div_h+20)*ratio + 'px');
 			}else{
 				$(this).css('height', (div_w-20)/ratio + 'px');
+				$(this).css('height', (div_w+20)/ratio + 'px');
 			}
 
 		}
