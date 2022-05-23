@@ -12,12 +12,12 @@
 				<p id="divider"></p>
 				<p id="sub-title">Photographer and life recorder</p>
 				<div id="personal-intro">
-					<p>Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder</p>
+					<p>Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder</p>
 				</div>
 			</div>
 		</div>
 		<div class="mobile-personal-intro">
-			<p>Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder</p>
+			<p>Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder</p>
 		</div>
 		<div class="personal-story">
 			<div></div>

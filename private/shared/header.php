@@ -45,11 +45,15 @@
 		<div class="menu" id="main-nav-menu">
 			<ul class="menu-list" aria-labelledby="menu-toggle">
 				<li class="nav-item">
-				<a href="<?php echo url_for('/photographer'); ?>" class="nav-item-link">Photographer</a>
+				<a href="<?php echo url_for('/index.php'); ?>" class="nav-item-link">Home</a>
 				</li>
 				<li class="nav-item">
-				<a href="<?php echo url_for('/awards'); ?>" class="nav-item-link">Awards</a>
+				<a href="<?php echo url_for('/gallery/index.php?group=all'); ?>" class="nav-item-link">Gallery</a>
 				</li>
+				<li class="nav-item">
+				<a href="<?php echo url_for('/photographer'); ?>" class="nav-item-link">Photographer</a>
+				</li>
+				
 				<li class="nav-item">
 					<div class="dropdown">
 						<a type="button" href="#" class="nav-item-link" id="about-btn">About <i class="fa-solid fa-angle-down"></i></a>

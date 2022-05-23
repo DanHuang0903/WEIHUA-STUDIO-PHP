@@ -203,6 +203,7 @@
 
 
 	window.addEventListener("resize", respond);
+	window.addEventListener("resize", setImageSize);
 
 	function respond(){
 		setupSlideSize("slides-1");
