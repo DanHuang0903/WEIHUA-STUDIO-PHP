@@ -88,12 +88,7 @@
 		
 	})
 
-//Adding image dynamically
 
-	// $('.gallery-tile').each(function(){
-	// 	if($(this).css('background-image') == 'none'){
-	// 	}
-	// })
 
 //Trigger image modal
 	function zoomImage(images,modalId, imageId, btnId){
@@ -148,16 +143,33 @@
 		$('.gallery-tile').each(function(){
 		var width = $(this).find('img').css('width');
 		var height = $(this).find('img').css('height');
+		var div_h = $(this).css('height');
+		var div_w = $(this).css('width');
 		var ratio = 1 ;
 		if(width){
 			width = parseFloat(width.substring(0, width.length - 2));
 			height = parseFloat(height.substring(0, height.length - 2));
+			div_h = parseFloat(div_h.substring(0, div_h.length - 2));
+			div_w = parseFloat(div_w.substring(0, div_w.length - 2));
+			ratio = width/height;
 		}
+		console.log(ratio);
 
-		if($(window).width() > 600){
-			$(this).css('width', (width + 10) + 'px');
+		if(width > height){
+			if($(window).width() > 600){
+				$(this).css('width', (div_h-40)*ratio + 'px');
+	
+			}else{
+				$(this).css('height', (div_w-20)/ratio + 'px');
+			}
+			
 		}else{
-			$(this).css('height',(height+10)+'px');
+			if($(window).width() > 600){
+				$(this).css('width', (div_h-40)*ratio + 'px');
+			}else{
+				$(this).css('height', (div_w-20)/ratio + 'px');
+			}
+
 		}
 	}) ;
 	}
@@ -180,7 +192,6 @@
 
 
 	window.addEventListener("resize", respond);
-	window.addEventListener("resize", setImageSize);
 
 	function respond(){
 		setupSlideSize("slides-1");

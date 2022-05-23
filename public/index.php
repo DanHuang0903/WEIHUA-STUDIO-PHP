@@ -11,7 +11,7 @@
 		<div class="home-main-content">
 			<h1>Weihua Photographic D-studio</h1>
 			<p id="home-main-p">
-				Photographic works by Weihua Huang, reveal the pretty of earth, display diverse cultures of human society. 
+				Photographic works by Weihua Huang, reveal the beauty of earth, display diverse cultures of human society. 
 			</p>
 
 			<button id="intro-btn">WHAT IS D-STUDIO</button>
