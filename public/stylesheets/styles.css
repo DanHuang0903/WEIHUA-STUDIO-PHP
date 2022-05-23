@@ -507,7 +507,7 @@ html,body{
 		border-radius: 0 12px 12px 0;
 		display: grid;
 		grid-template-columns: [c1]100%[c2];
-	  grid-template-rows: [r1]40%[r2]60%[r3];
+	  grid-template-rows: [r1]50%[r2]50%[r3];
 	  overflow: hidden;
 	}
 
@@ -761,6 +761,7 @@ html,body{
 		font-size: 12px;
 		width: 9rem;
 		padding: 1rem;
+		margin-left: 2rem;
 		border-radius: 10px;
 		border: none;
 		box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
