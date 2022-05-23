@@ -41,9 +41,12 @@
 		<div class="nature-tile">
 			<div id="about-us"><span class="badge">about us</span></div>
 			<div id="studio">
-				<div>
-					
-				</div>
+				<h2>
+					Not 100% Professional<br/> But 200% Dedicated
+				</h2>
+				<p>
+					Every achievement is about enthusiasm. We are not professinal photographers, but all the awards we gained are the best recognitions of our passion on photography. This online sutdio is to share our enthusiasm with the whole world, and to conmunicate with everyone who is interested in photography.
+				</p>
 			</div>
 			<div id="nature-tile-words">
 				
@@ -111,7 +114,7 @@
 					<a type="button" href="<?php echo url_for('/gallery/index.php?group=all'); ?>">FULL<br/> GALLERY</a>
 				</div>
 				<div id="share">
-					<p class="badge">shortcut</p>
+					<span class="badge">shortcut</span>
 					<div id="share-content">
 						<a type="button" id="awarded" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('awarded') ; ?>">Awarded<br/> Photography</a>
 						<a type="button" id="fav" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('favorist') ; ?>">Photographer<br/> Favorist</a>
@@ -124,6 +127,9 @@
 	</div>
 
 	<div id="mobile-img">
+		<div id="m-recommend">
+			<span class="badge">Recommended works</span>
+		</div>
 		<div id="m-img-1" class="slides-img">
 			<img src="img/r12.jpg" class="m-slides-1">
 			<img src="img/25.jpg" class="m-slides-1">
@@ -162,9 +168,9 @@
 				<a type="button" href="<?php echo url_for('/gallery/index.php?group=all'); ?>">FULL GALLERY</a>
 			
 		</div>
-		<div id="share">
-					<p class="badge">shortcut</p>
-					<div id="share-content">
+		<div id="m-share">
+					<span class="badge">shortcut</span>
+					<div id="m-share-content">
 						<a type="button" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('awarded') ; ?>">Awarded<br/> Photography</a>
 						<a type="button" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('favorist') ; ?>">Photographer<br/> Favorist</a>
 						<a type="button" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('recent') ; ?>">Most<br>Recent</a>

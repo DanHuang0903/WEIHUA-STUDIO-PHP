@@ -427,7 +427,7 @@ html,body{
 		width: 100%;
 		overflow: hidden;
 		border-radius: 12px;
-		box-shadow: 0px 10px 6px #888;
+		box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.3);
 
 	}
 	.bg-img {
@@ -472,13 +472,13 @@ html,body{
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1);
     border-radius: 12px;
     overflow: visible;
-    height: 36em;
+    height: 42em;
     width: 90%;
     float: right;
     padding: 0;
     display: grid;
-    grid-template-columns: [first]40% [second]60%[end];
-    grid-template-rows: [line1]5% [line2]95%[line3];
+    grid-template-columns: [first]50% [second]50%[end];
+    grid-template-rows: [line1]3rem [line2]95%[line3];
 	}
 
 	#about-us{
@@ -486,17 +486,21 @@ html,body{
 		grid-column-end: span second;	
 		grid-row-start: 1;
 		grid-row-end: line2;
-		margin-left: 2rem;
-		margin-right: 2rem;
+		margin-left: 1rem;
+		margin-right: 1rem;
 		padding-top: 1.5rem;
 	}
 
 	#studio {
-		grid-column-start: 2;
-		grid-column-end: span end;	
+		grid-column-start: 1;
+		grid-column-end: span second;	
 		grid-row-start: 2;
 		grid-row-end: line3;
 		border-radius: 12px 0 0 12px;
+		margin-left: 2rem;
+		margin-right: 2rem;
+		padding-top: 1.5rem;
+		word-spacing: 5px;
 	}
 	
 	#nature-tile-words {
@@ -519,33 +523,16 @@ html,body{
 		grid-column-end: span c2;	
 		grid-row-start: 2;
 		grid-row-end: r3;
-		
 		margin-left: 2rem;
 		margin-right: 2rem;
-		border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 		background-image:url("../img/logo.png");
 		background-size: 30%;
 		background-position: left center;
 		background-repeat: no-repeat;
 		padding-left: 30%;
-		padding-top: 2rem;
+		padding-top: 1.5rem;
 		overflow: auto;
 
-	}
-
-
-	#logo-story h2 {
-		font-family: 'Raleway', serif;
-		font-size: 25px;
-		word-spacing: 5px;
-		
-	}
-
-	#logo-story p {
-		font-family: 'Raleway', serif;
-		font-size: 17px;
-		word-spacing: 5px;
-		font-weight: 300;
 	}
 
 	#belief{
@@ -555,37 +542,37 @@ html,body{
 		grid-row-end: r2;
 		margin-left: 2rem;
 		margin-right: 2rem;
-		padding-top: 2rem;
-		padding-bottom: 2rem;
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
 		border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 		overflow: auto;
 	}
 
-	#belief h2 {
+	#studio h2, #logo-story h2, #belief h2 {
 		font-family: 'Raleway', serif;
 		font-size: 25px;
 		word-spacing: 5px;
 		font-weight: 400;
 	}
 
-	#belief p {
+	#studio p, #belief p, #logo-story p {
 		font-family: 'Raleway', serif;
 		font-size: 17px;
-		word-spacing: 5px;
 		font-weight: 300;
+
+		line-height: 1.8rem;
 	}
 
 	#share {
 	align-self: stretch;
 		margin-right: 2rem;
-		margin-left: 2rem;
+		
 	}
-
-	.badge {
+.badge {
 		font-family: 'Raleway', serif;
 		font-size: 15px;
-		background-color: #888;
-		padding: 4px;
+		background-color: #555;
+		padding: 6px;
 		border-radius: 6px;
 		display: inline-block;
 		text-transform: uppercase;
@@ -595,6 +582,9 @@ html,body{
 	#share-content, #nature-tile-btn-group {
 		display: flex;
 		flex-direction: row;
+		justify-content: flex-start;
+		align-items: flex-start;
+		align-content: flex-start;
 	}
 
 	#awarded {
@@ -606,6 +596,11 @@ html,body{
 	#fav, #recent {
 		background-image: url("../img/share_btn_bg_p2.png");
 		background-size: cover;
+	}
+
+	#share .badge {
+		font-size: 13px;
+		margin-bottom: 0.5rem;
 	}
 	.share-btn {
 		text-decoration: none;
@@ -647,8 +642,8 @@ html,body{
 		padding-top: 1.5rem;
 		padding-bottom: 2rem;
 		flex: 0 1 auto;
-		margin-left: 2rem;
-		margin-right: 2rem;
+		margin-left: 1rem;
+		margin-right: 1rem;
 	}
 
 	#nature-tile-img {
@@ -760,8 +755,7 @@ html,body{
 		color: black;
 		font-size: 12px;
 		width: 9rem;
-		padding: 1rem;
-		margin-left: 2rem;
+		padding: 0.5rem;
 		border-radius: 10px;
 		border: none;
 		box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
@@ -1491,6 +1485,7 @@ html,body{
 		transform: translateY(-10%);
 		background-image: none;
 		width: 100%;
+		
 	}
 
 
@@ -1547,41 +1542,35 @@ html,body{
 		100%{margin-left: 0; }
 	}
 	.nature-tile {
-	    height: 45rem;
-	    width: 100%;
-	    width: 100%;
-	    box-shadow: none;
-	    border: none;
-	    float: none;
-	    grid-template-columns: [mnc1]100%[mnc2]auto[mnc3];
-	    grid-template-rows: [mnr1]100%[mnr2]auto[mnr2];
+    height: 53rem;
+    width: 100%;
+    width: 100%;
+    box-shadow: none;
+    border: none;
+    float: none;
+	   display: flex;
+	  flex-direction: column; 
+	  flex-wrap: nowrap;  
 
 	}
+
 
 	#nature-tile-words {
-		grid-row-start: 1;
-		grid-row-end: span mnr2;
-		grid-column-start: 1;
-		grid-column-end: span mnc2;
-		display: grid;
-		grid-template-columns: [mwc1]100%[mwc2];
-	    grid-template-rows: [mwr1]40% [mwr2]45%[mwr3]auto[mwr4];
+	   display: flex;
+	   flex-direction: column;
+	   flex-wrap: nowrap;
+	 
+
 	}
 
-	#logo-story {
-		grid-row-start: 1;
-		grid-row-end: span mwr2;
-		grid-column-start: 1;
-		grid-column-end: span mwc2;
-		margin-left: 1rem;
+	#studio, #logo-story, #belief {
+		margin-left: 0.5rem;
+		padding-right: 0.5rem;
+
 	}
 
-
-	#belief {
-		grid-row-start: 2;
-		grid-row-end: span mwr3;
-		grid-column-start: 1;
-		grid-column-end: span mwc2;
+	#studio {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 	}
 
 	#portfolio{
@@ -1590,11 +1579,12 @@ html,body{
 
 
 
-	#nature-tile-words h2{
+	#nature-tile-words h2, #studio h2{
 		font-size: 18px;
 	}
-	#logo-story p, #belief p {
+	#logo-story p, #belief p, #studio p {
 		font-size: 15px;
+		line-height: 1.2rem;
 	}
 	
 
@@ -1603,22 +1593,30 @@ html,body{
 	#mobile-img {
 		display: grid;
 		grid-template-columns: [mc1]40%[mc2]60%[mc3];
-		grid-template-rows: [mr1]20%[mr2]20%[mr3]20%[mr4]19%[mr5]5%[mr6]auto[mr7];
+		grid-template-rows: [mr0]10%[mr1]18%[mr2]18%[mr3]18%[mr4]17%[mr5]5%[mr6]auto[mr7];
 		position: relative;
-		transform: translateY(-15%);
+		transform: translateY(-5%);
 		width: 100%;
 		margin: 0;
-		height: 55rem;
+		height: 58rem;
 		padding: 0;
 		overflow: hidden;
 		border-radius: 12px;
-		box-shadow: 0px 10px 6px #888;
+		box-shadow: 4px 4px 8px 6px rgba(0, 0, 0, 0.3);
 	}
 
-	#m-img-1 {
+#m-recommend{
 		grid-column-start: 1;
 		grid-column-end: span mc2;
 		grid-row-start: 1;
+		grid-row-end:span mr1;
+		padding-top: 1.5rem;
+		padding-left: 0.5rem;
+}
+	#m-img-1 {
+		grid-column-start: 1;
+		grid-column-end: span mc2;
+		grid-row-start: 2;
 		grid-row-end:span mr2;
 		border-bottom: solid 4px white;
 		border-right: solid 4px white;
@@ -1627,35 +1625,35 @@ html,body{
 	#m-img-2 {
 		grid-column-start: 2;
 		grid-column-end: span mc3;
-		grid-row-start: 1;
+		grid-row-start: 2;
 		grid-row-end:span mr2;
 		border-bottom: solid 4px white;
 	}
 	#m-img-3 {
 		grid-column-start: 1;
 		grid-column-end: span mc3;
-		grid-row-start: 2;
+		grid-row-start: 3;
 		grid-row-end:span mr3;
 		border-bottom: solid 4px white;
 	}
 	#m-img-4 {
 		grid-column-start: 1;
 		grid-column-end: span mc3;
-		grid-row-start: 3;
+		grid-row-start: 4;
 		grid-row-end:span mr4;
 		border-bottom: solid 4px white;
 	}
 	#m-img-5 {
 		grid-column-start: 1;
 		grid-column-end: span mc2;
-		grid-row-start: 4;
+		grid-row-start: 5;
 		grid-row-end:span mr5;
 		border-right: solid 4px white;
 	}
 	#m-img-6 {
 		grid-column-start: 2;
 		grid-column-end: span mc3;
-		grid-row-start: 4;
+		grid-row-start: 5;
 		grid-row-end:span mr5;
 	}
 	
@@ -1667,9 +1665,10 @@ html,body{
 	#m-btn {
 		grid-column-start: 1;
 		grid-column-end: span mc2;
-		grid-row-start: 5;
+		grid-row-start: 6;
 		grid-row-end:span mr6;
-		margin-left: 2rem;
+		margin-bottom: 0.5rem;
+		margin-left: 0.5rem;
 		padding-top: 2rem;
 		align-self: stretch;
 	}
@@ -1698,19 +1697,25 @@ html,body{
 		animation: gradient 5s ease;
 	}
 
-	#share {
+	#m-share {
 		grid-column-start: 1;
 		grid-column-end: span mc2;
-		grid-row-start: 6;
+		grid-row-start: 7;
 		grid-row-end:span mr7;
-		padding-top: 1.5rem;
+		padding-top: 2rem;
+		margin-left: 0.5rem;
 	}
-	#share p {
+
+	#m-share .badge{
+		font-size: 10px;
+		margin-bottom: 0.5rem;
+	}
+	#m-share p {
 		font-size: 10px;
 		background-color: #888;
 	}
 
-	#share-content {
+	#m-share-content {
 		width: 90%;
 		display: flex;
 		flex-direction: row;
@@ -1719,8 +1724,9 @@ html,body{
 
 
 	.share-btn {
-		min-width: 5rem;
+		min-width: 6rem;
 		margin-right: 1rem;
+		padding: 0.3rem;
 		font-size: 10px;
 		text-decoration: none;
 		color: black;
@@ -1729,7 +1735,9 @@ html,body{
 		background-image: linear-gradient(-45deg,#C7D6C7,#D2D2C8, #EDD6D6, #EAC9C9);
 	}
 
-
+	#about-us{
+		margin-left: 0;
+	}
 
 	#home-main{
 		margin-bottom: 0;
