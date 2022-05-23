@@ -37,6 +37,10 @@ $('document').ready(function(){
 	setupSlide("slides-3", 8500);
 	setupSlideSize("slides-4");
 	setupSlide("slides-4", 7500);
+	setupSlideSize("slides-5")
+	setupSlide("slides-5", 8500);
+	setupSlideSize("slides-6");
+	setupSlide("slides-6", 7500);
 
 	setupSlideSize("m-slides-1")
 	setupSlide("m-slides-1", 8500);
@@ -44,6 +48,12 @@ $('document').ready(function(){
 	setupSlide("m-slides-2", 7500);
     setupSlideSize("m-slides-3")
 	setupSlide("m-slides-3", 7000);
+	setupSlideSize("m-slides-4")
+	setupSlide("m-slides-4", 8500);
+	setupSlideSize("m-slides-5")
+	setupSlide("m-slides-5", 7500);
+    setupSlideSize("m-slides-6")
+	setupSlide("m-slides-6", 7000);
 
 	setupSlide("ribbon-content",5000)
 
@@ -203,10 +213,15 @@ $('document').ready(function(){
 		setupSlideSize("slides-2");
 		setupSlideSize("slides-3");
 		setupSlideSize("slides-4");
+		setupSlideSize("slides-5");
+		setupSlideSize("slides-6");
 		setupSlideSize("m-slides-1");
 		setupSlideSize("m-slides-2");
 		setupSlideSize("m-slides-3");
-		setImageSize();
+		setupSlideSize("m-slides-4");
+		setupSlideSize("m-slides-5");
+		setupSlideSize("m-slides-6");
+
 	}
 
 	window.addEventListener("scroll", function(e){

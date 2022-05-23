@@ -39,8 +39,14 @@
 			</p>
 		</div>
 		<div class="nature-tile">
+			<div id="about-us"><span class="badge">about us</span></div>
+			<div id="studio">
+				<div>
+					
+				</div>
+			</div>
 			<div id="nature-tile-words">
-				<div id="about-us"><span class="badge">about us</span></div>
+				
 				<div id="belief">
 					
 					<h2>We believe <span class="green-text">nature</span> and human <span class="pink-text">culture</span> are inseparatable</h2>
@@ -51,6 +57,59 @@
 					<p>The inspiration of our LOGO is from origami. One day, I was folding a double-color paper strip into a letter W, and suddenly realized that I could see both colors on oneside afterwards, which perfectly matches the studio's belief.</p>
 				</div>
 				
+				
+			</div>
+			
+			
+			
+
+		</div>	
+
+		<div id="portfolio">
+			<div id="recommend">
+				<span class="badge">Recommended works</span>
+			</div>
+			
+			<div id="nature-tile-img">
+				<div id="img-1" class="slides-img">
+					<img src="img/r9.jpg" class="slides-1">
+					<img src="img/f23.jpg" class="slides-1">
+					<img src="img/7223.jpg" class="slides-1">
+				</div>
+				<div id="img-2" class="slides-img">
+					<img src="img/7225.jpg" class="slides-2">
+					<img src="img/22.jpg" class="slides-2">
+					<img src="img/8.jpg" class="slides-2">
+					
+				</div>
+				<div id="img-3" class="slides-img">
+					<img src="img/f22.jpg" class="slides-3">
+					<img src="img/IMG_9684.jpg" class="slides-3">
+					<img src="img/r11.jpg" class="slides-3">
+				</div>
+				<div id="img-4" class="slides-img">
+					<img src="img/IMG_6297.jpg" class="slides-4">
+					<img src="img/r8.jpg" class="slides-4">
+					<img src="img/3381.jpg" class="slides-4">
+				</div>
+				<div id="img-5" class="slides-img">
+					<img src="img/25.jpg" class="slides-5">
+					<img src="img/r12.jpg" class="slides-5">
+				</div>
+				<div id="img-6" class="slides-img">
+					<img src="img/f26.jpg" class="slides-6">
+					<img src="img/2971.jpg" class="slides-6">
+					<img src="img/f24.jpg" class="slides-6">
+					<img src="img/7220.jpg" class="slides-6">
+				</div>
+
+
+			</div>
+			<div id="nature-tile-btn">
+				
+				<div id="nature-tile-btn-group">
+					<a type="button" href="<?php echo url_for('/gallery/index.php?group=all'); ?>">FULL<br/> GALLERY</a>
+				</div>
 				<div id="share">
 					<p class="badge">shortcut</p>
 					<div id="share-content">
@@ -59,64 +118,57 @@
 						<a type="button" id="recent" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('recent') ; ?>">Most<br>Recent</a>
 					</div>
 				</div>
-			</div>
-			<div id="nature-tile-img">
-				<div id="img-1" class="slides-img">
-					<img src="img/r9.jpg" class="slides-1">
-					<img src="img/f23.jpg" class="slides-1">
-					<img src="img/f13.jpg" class="slides-1">
-				</div>
-				<div id="img-2" class="slides-img">
-					<img src="img/f20.jpg" class="slides-2">
-					<img src="img/22.jpg" class="slides-2">
-					<img src="img/IMG_6297.jpg" class="slides-2">
-					
-				</div>
-				<div id="img-3" class="slides-img">
-					<img src="img/25.jpg" class="slides-3">
-					<img src="img/8.jpg" class="slides-3">
-					<img src="img/r12.jpg" class="slides-3">
-					
-				</div>
-				<div id="img-4" class="slides-img">
-					<img src="img/f26.jpg" class="slides-4">
-					<img src="img/2971.jpg" class="slides-4">
-					<img src="img/f24.jpg" class="slides-4">
-				</div>
-			</div>
-			<div id="nature-tile-btn">
-				<p class="badge">for everyone</p>
-				<div id="nature-tile-btn-group">
-					<a type="button" href="<?php echo url_for('/gallery/index.php?group=all'); ?>">FULL GALLERY</a>
-				</div>
 				
 			</div>
-			
-
-		</div>	
+		</div>
 	</div>
 
 	<div id="mobile-img">
 		<div id="m-img-1" class="slides-img">
-			<img src="img/f20.jpg" class="m-slides-1">
-			<img src="img/22.jpg" class="m-slides-1">
-			<img src="img/IMG_6297.jpg" class="m-slides-1">
+			<img src="img/r12.jpg" class="m-slides-1">
+			<img src="img/25.jpg" class="m-slides-1">
 		</div>
 		<div id="m-img-2" class="slides-img">
-			<img src="img/25.jpg" class="m-slides-2">
-			<img src="img/8.jpg" class="m-slides-2">
-			<img src="img/r12.jpg" class="m-slides-2">
+			<img src="img/20.jpg" class="m-slides-2">
+			<img src="img/r8.jpg" class="m-slides-2">
+			<img src="img/f23.jpg" class="m-slides-2">
 		</div>
 		<div id="m-img-3" class="slides-img">
 			<img src="img/r9.jpg" class="m-slides-3">
 			<img src="img/f23.jpg" class="m-slides-3">
 			<img src="img/f13.jpg" class="m-slides-3">
 			<img src="img/f26.jpg" class="m-slides-3">
+			
+			
+		</div>
+		<div id="m-img-4" class="slides-img">
+			<img src="img/7222.jpg" class="m-slides-4">
+			<img src="img/1306.jpg" class="m-slides-4">
+			<img src="img/f25.jpg" class="m-slides-4">
 			<img src="img/2971.jpg" class="m-slides-3">
-			<img src="img/f24.jpg" class="m-slides-3">
+
+		</div>
+		<div id="m-img-5" class="slides-img">
+			<img src="img/8.jpg" class="m-slides-5">
+			<img src="img/22.jpg" class="m-slides-5">
+			<img src="img/7225.jpg" class="m-slides-5">
+		</div>
+		<div id="m-img-6" class="slides-img">
+			<img src="img/IMG_6297.jpg" class="m-slides-6">
+			<img src="img/3381.jpg" class="m-slides-6">
+			<img src="img/r11.jpg" class="m-slides-6">
 		</div>
 		<div id="m-btn">
-			<a type="button" href="<?php echo url_for('/gallery/index.php?group=all'); ?>">FULL GALLERY</a>
+				<a type="button" href="<?php echo url_for('/gallery/index.php?group=all'); ?>">FULL GALLERY</a>
+			
+		</div>
+		<div id="share">
+					<p class="badge">shortcut</p>
+					<div id="share-content">
+						<a type="button" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('awarded') ; ?>">Awarded<br/> Photography</a>
+						<a type="button" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('favorist') ; ?>">Photographer<br/> Favorist</a>
+						<a type="button" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('recent') ; ?>">Most<br>Recent</a>
+					</div>
 		</div>
 	</div>
 
