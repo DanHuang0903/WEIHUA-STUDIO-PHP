@@ -1,4 +1,7 @@
 
+$('document').ready(function(){
+	setImageSize();
+});
 	$('.nav-toggle').click(function(){
 
 		if($('.menu').css('display') == 'none'){
@@ -24,7 +27,6 @@
 	$("#modal-close").click(function(){
 		$("#d-studio").css("display","none");
 	});
-
 
 
 	setupSlideSize("slides-1")

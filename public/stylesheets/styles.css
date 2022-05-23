@@ -489,15 +489,25 @@ html,body{
 		border-radius: 12px 0 0 12px;
 		display: grid;
 		grid-template-columns: [c1]100%[c2];
-	  grid-template-rows: [r1]40% [r2]40%[r3]auto[r4];
+	  grid-template-rows: [r1]4%[r2]40%[r3]36%[r4]auto[r5];
 	  overflow: hidden;
 	}
 
-	#logo-story {
+	#about-us{
 		grid-column-start: 1;
 		grid-column-end: span c2;	
 		grid-row-start: 1;
 		grid-row-end: r2;
+		margin-left: 2rem;
+		margin-right: 2rem;
+		padding-top: 2rem;
+	}
+	#logo-story {
+		grid-column-start: 1;
+		grid-column-end: span c2;	
+		grid-row-start: 3;
+		grid-row-end: r4;
+		
 		margin-left: 2rem;
 		margin-right: 2rem;
 		border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -556,13 +566,13 @@ html,body{
 	#share {
 		grid-column-start: 1;
 		grid-column-end: span c2;	
-		grid-row-start: 3;
-		grid-row-end: r4;
+		grid-row-start: 4;
+		grid-row-end: r5;
 		margin-right: 2rem;
 		margin-left: 2rem;
 	}
 
-	#share p {
+	.badge {
 		font-family: 'Raleway', serif;
 		font-size: 12px;
 		background-color: #888;

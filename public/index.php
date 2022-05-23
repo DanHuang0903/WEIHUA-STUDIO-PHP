@@ -35,21 +35,24 @@
 				People, Society, Living, <span class="pink-text">Culture</span>
 			</h2>
 			<p>
-				life is a journey, photos capture the moments
+				Life is a journey, photos capture the moments
 			</p>
 		</div>
 		<div class="nature-tile">
 			<div id="nature-tile-words">
+				<div id="about-us"><span class="badge">about us</span></div>
+				<div id="belief">
+					
+					<h2>We believe <span class="green-text">nature</span> and human <span class="pink-text">culture</span> are inseparatable</h2>
+					<p>I use my camera to capture the breathtaking natural scenery and amazing human cultures. But they are not just two isolated categories. They are the two sides of the paper strip. They have their own colors respectively, but could be never separated. Like our LOGO, we are devoted to present the harmony of nature and human culture in a gorgeous way.</p>
+				</div>
 				<div id="logo-story">
 					<h2>Our LOGO</h2>
 					<p>The inspiration of our LOGO is from origami. One day, I was folding a double-color paper strip into a letter W, and suddenly realized that I could see both colors on oneside afterwards, which perfectly matches the studio's belief.</p>
 				</div>
-				<div id="belief">
-					<h2>We believe <span class="green-text">nature</span> and human <span class="pink-text">culture</span> are inseparatable</h2>
-					<p>I use my camera to capture the breathtaking natural scenery and amazing human cultures. But they are not just two isolated categories. They are the two sides of the paper strip. They have their own colors respectively, but could be never separated. Like our LOGO, we are devoted to present the harmony of nature and human culture in a gorgeous way.</p>
-				</div>
+				
 				<div id="share">
-					<p>shortcut</p>
+					<p class="badge">shortcut</p>
 					<div id="share-content">
 						<a type="button" id="awarded" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('awarded') ; ?>">Awarded<br/> Photography</a>
 						<a type="button" id="fav" class="share-btn" href="<?php echo url_for('/gallery/index.php?group=') . u('favorist') ; ?>">Photographer<br/> Favorist</a>
@@ -82,7 +85,7 @@
 				</div>
 			</div>
 			<div id="nature-tile-btn">
-				<p>for everyone</p>
+				<p class="badge">for everyone</p>
 				<div id="nature-tile-btn-group">
 					<a type="button" href="<?php echo url_for('/gallery/index.php?group=all'); ?>">FULL GALLERY</a>
 				</div>
