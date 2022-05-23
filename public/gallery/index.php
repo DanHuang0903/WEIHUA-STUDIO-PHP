@@ -8,7 +8,7 @@
 		<div class="gallery-head">
 				<div class="gallery-head-content">
 					<h1>GALLERY</h1>
-					<p><?php 
+					<p id="gallery-sub-title"><?php 
 						if($_GET['group'] != 'all'){
 							echo strtoupper(h($_GET['group'])); 
 						}

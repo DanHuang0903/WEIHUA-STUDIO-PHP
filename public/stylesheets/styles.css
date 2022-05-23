@@ -942,6 +942,16 @@ html,body{
 	max-height: 100% !important;
 }
 
+#gallery-sub-title{
+	animation: zoomIn 0.7s linear;
+}
+
+@keyframes zoomIn {
+	0% {font-size: 0;opacity: 0;}
+	100% {font-size: 20px;opacity: 1;}
+}
+
+
 .filters {
 	position: absolute;
 	bottom: 4rem;
