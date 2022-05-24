@@ -1,7 +1,6 @@
 
 $('document').ready(function(){
 	setImageSize();
-
 });
 	$('.nav-toggle').click(function(){
 
@@ -13,10 +12,6 @@ $('document').ready(function(){
 			$('.main-header').addClass('not-active');
 			$('.main-header').removeClass('is-active');
 			unfreeze();
-			// $("body").css("max-height","auto");
-			// $("body").css("overflow-y","auto");
-			// $("html").css("max-height","auto");
-			// $("html").css("overflow-y","auto");
 		}
 
 
@@ -131,6 +126,7 @@ $('document').ready(function(){
 		$(document).click(function(e){
 		if($(e.target).is("#"+modalId)){
 			$("#"+modalId).hide();
+			$('header').css('display','block');
 			unfreeze();
 		}
 	})
@@ -156,10 +152,10 @@ $('document').ready(function(){
 		}) ;
 			
 		}) ;
-		setImageSize();
+		//setImageSize();
 	}
 
-	setImageSize();
+//	setImageSize();
 
 
 
