@@ -140,9 +140,9 @@
 			<img src="img/f23.jpg" class="m-slides-2">
 		</div>
 		<div id="m-img-3" class="slides-img">
-			<img src="img/r9.jpg" class="m-slides-3">
-			<img src="img/f23.jpg" class="m-slides-3">
-			<img src="img/f13.jpg" class="m-slides-3">
+			<img src="img/f24.jpg" class="m-slides-3">
+			<img src="img/7223.jpg" class="m-slides-3">
+			<img src="img/7220.jpg" class="m-slides-3">
 			<img src="img/f26.jpg" class="m-slides-3">
 			
 			
