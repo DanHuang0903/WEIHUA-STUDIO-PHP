@@ -151,7 +151,7 @@
 			<img src="img/7222.jpg" class="m-slides-4">
 			<img src="img/1306.jpg" class="m-slides-4">
 			<img src="img/f25.jpg" class="m-slides-4">
-			<img src="img/2971.jpg" class="m-slides-3">
+			<img src="img/2971.jpg" class="m-slides-4">
 
 		</div>
 		<div id="m-img-5" class="slides-img">
