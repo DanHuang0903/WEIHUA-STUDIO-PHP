@@ -31,7 +31,7 @@
 		</div>
 	</div>
 	<div id="rights">
-		<p>&copy; 2022 Dan Huang</p>
+		<p>&copy; <?php echo date("Y");?> Dan Huang</p>
 		<p>D-Studio Website Designed & Developed by Dan Huang</p>
 		<p>Photos by Weihua Huang</p>
 	</div>
