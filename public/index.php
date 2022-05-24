@@ -26,7 +26,6 @@
 	</div>
 	<div class="stories">
 		<div class="bg-img"></div>
-		
 		<div class="nature-content">
 			<h2 id="title-1">
 				Moutain, River, Woods, <span class="green-text">Nature </span>
@@ -45,7 +44,7 @@
 					Not 100% Professional<br/> But 200% Dedicated
 				</h2>
 				<p>
-					Every achievement is about enthusiasm. We are not professinal photographers, but all the awards we gained are the best recognitions of our passion on photography. This online sutdio is to share our enthusiasm with the whole world, and to conmunicate with everyone who is interested in photography.
+					Every achievement is about enthusiasm. We are not professinal photographers, but all the awards we gained are the best recognitions of our passion on photography. Weihua Sutdio is to share our enthusiasm with the whole world, and to conmunicate with everyone who is interested in photography.
 				</p>
 			</div>
 			<div id="nature-tile-words">
@@ -127,6 +126,7 @@
 	</div>
 
 	<div id="mobile-img">
+		<div class="m-bg"></div>
 		<div id="m-recommend">
 			<span class="badge">Recommended works</span>
 		</div>

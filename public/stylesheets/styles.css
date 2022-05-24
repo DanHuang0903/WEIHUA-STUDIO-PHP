@@ -431,13 +431,13 @@ html,body{
 
 	}
 	.bg-img {
-		background-image: url("../img/nature_img2.png");
+		background-image: url("../img/stories-bg.png");
 		position: absolute;
 		width: 100%;
-		height: 100%;
+		height: 101%;
 		background-size: cover;
-		background-position: top center;
-		opacity: 0.7;
+		background-position: bottom center;
+		opacity: 0.5;
 	
 	}
 	.nature-content {
@@ -489,6 +489,10 @@ html,body{
 		margin-left: 1rem;
 		margin-right: 1rem;
 		padding-top: 1.5rem;
+	}
+
+	#about-us .badge {
+		box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 	}
 
 	#studio {
@@ -559,8 +563,14 @@ html,body{
 		font-family: 'Raleway', serif;
 		font-size: 17px;
 		font-weight: 300;
-
 		line-height: 1.8rem;
+		text-align: justify;
+		word-spacing: 0.5px;
+	}
+
+		#studio p {
+		width: 85%;
+
 	}
 
 	#share {
@@ -644,6 +654,10 @@ html,body{
 		flex: 0 1 auto;
 		margin-left: 1rem;
 		margin-right: 1rem;
+	}
+
+	#recommend .badge{
+		box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 	}
 
 	#nature-tile-img {
@@ -760,7 +774,7 @@ html,body{
 		border: none;
 		box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
 		text-align: center;
-		font-family: 'Raleway';
+		font-family: 'Raleway',serif;
 		float: right;
 		background-image: linear-gradient(-45deg,#C7D6C7,#D2D2C8, #EDD6D6, #EAC9C9);
 	}
@@ -1483,7 +1497,7 @@ html,body{
 
 	.stories {
 		transform: translateY(-10%);
-		background-image: none;
+		 background-image: none;
 		width: 100%;
 		
 	}
@@ -1573,6 +1587,7 @@ html,body{
 	#studio {
 		border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 		padding-bottom: 1.5rem;
+		margin-right: 2.5rem;
 	}
 
 	#portfolio{
@@ -1587,34 +1602,54 @@ html,body{
 	#logo-story p, #belief p, #studio p {
 		font-size: 15px;
 		line-height: 1.2rem;
+		width: 100%;
 	}
 	
+
 
 	
 
 	#mobile-img {
 		display: grid;
 		grid-template-columns: [mc1]40%[mc2]60%[mc3];
-		grid-template-rows: [mr0]10%[mr1]18%[mr2]18%[mr3]18%[mr4]17%[mr5]5%[mr6]auto[mr7];
+		grid-template-rows: [mr0]5rem[mr1]18%[mr2]18%[mr3]18%[mr4]17%[mr5]5%[mr6]auto[mr7];
 		position: relative;
-		transform: translateY(-5%);
+		transform: translateY(-8%);
 		width: 100%;
 		margin: 0;
 		height: 58rem;
 		padding: 0;
 		overflow: hidden;
 		border-radius: 12px;
-		box-shadow: 4px 4px 8px 6px rgba(0, 0, 0, 0.3);
+		box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.3);
+	}
+
+	.m-bg {
+		background-image: url("../img/stories-bg.png");
+		background-size: contain;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		opacity: 0.4;
 	}
 
 #m-recommend{
 		grid-column-start: 1;
-		grid-column-end: span mc2;
+		grid-column-end: span mc3;
 		grid-row-start: 1;
 		grid-row-end:span mr1;
 		padding-top: 1.5rem;
 		padding-left: 0.5rem;
+
 }
+
+#m-recommend .badge{
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
 	#m-img-1 {
 		grid-column-start: 1;
 		grid-column-end: span mc2;
@@ -1666,7 +1701,7 @@ html,body{
 
 	#m-btn {
 		grid-column-start: 1;
-		grid-column-end: span mc2;
+		grid-column-end: span mc3;
 		grid-row-start: 6;
 		grid-row-end:span mr6;
 		margin-bottom: 0.5rem;
@@ -1678,16 +1713,16 @@ html,body{
 	#m-btn a {
 		text-decoration: none;
 		color: black;
-		width: 8rem;
+		min-width: 6rem;
 		padding: 1rem;
 		border-radius: 10px;
 		border: none;
 		box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1);
 		text-align: left;
-		font-family: 'Ubuntu';
+		font-family: 'Raleway', serif;
 		padding: 0.5rem;
 		color: black;
-		font-size: 12px;
+		font-size: 10px;
 		background-image: linear-gradient(-45deg,#C7D6C7,#D2D2C8, #EDD6D6, #EAC9C9);
 	}
 

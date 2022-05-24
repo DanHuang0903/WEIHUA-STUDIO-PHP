@@ -17,7 +17,7 @@
 			</div>
 		</div>
 		<div class="mobile-personal-intro">
-			<p>Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder</p>
+			<p>Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder Personal intro place holder6</p>
 		</div>
 		<div class="personal-story">
 			<div></div>
