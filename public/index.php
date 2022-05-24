@@ -86,7 +86,7 @@
 				</div>
 				<div id="img-3" class="slides-img">
 					<img src="img/f22.jpg" class="slides-3">
-					<img src="img/IMG_9684.jpg" class="slides-3">
+					<img src="img/f20.jpg" class="slides-3">
 					<img src="img/r11.jpg" class="slides-3">
 				</div>
 				<div id="img-4" class="slides-img">
