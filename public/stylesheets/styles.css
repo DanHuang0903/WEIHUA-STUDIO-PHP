@@ -423,7 +423,7 @@ html,body{
 
 	.stories {
 		position: relative;
-		transform: translateY(20%);
+		transform: translateY(15%);
 		width: 100%;
 		overflow: hidden;
 		border-radius: 12px;
@@ -852,7 +852,7 @@ html,body{
 	    background-color: rgba(255, 255, 255, 0.8);  
 	  }
 
-	  #nature-tile-btn,#drop-blank {
+	  .nature-tile,#nature-tile-btn,#drop-blank {
 	    -webkit-backdrop-filter: blur(5px);
 	    backdrop-filter: blur(5px);
 	    background-color: rgba(255, 255, 255, 0.2);  
@@ -1554,7 +1554,7 @@ html,body{
 	}
 
 	.stories {
-		transform: translateY(-10%);
+		transform: translateY(-5%);
 		 background-image: none;
 		width: 100%;
 		
@@ -1614,7 +1614,7 @@ html,body{
 		100%{margin-left: 0; }
 	}
 	.nature-tile {
-    height: 53rem;
+    height: 73rem;
     width: 100%;
     width: 100%;
     box-shadow: none;
@@ -1648,6 +1648,10 @@ html,body{
 		margin-right: 2.5rem;
 	}
 
+	#studio-content{
+		height: 70%;
+	}
+
 	#portfolio{
 		display: none;
 	}
@@ -1664,15 +1668,12 @@ html,body{
 	}
 	
 
-
-	
-
 	#mobile-img {
 		display: grid;
 		grid-template-columns: [mc1]40%[mc2]60%[mc3];
 		grid-template-rows: [mr0]5rem[mr1]18%[mr2]18%[mr3]18%[mr4]17%[mr5]5%[mr6]auto[mr7];
 		position: relative;
-		transform: translateY(-8%);
+		transform: translateY(-5%);
 		width: 100%;
 		margin: 0;
 		height: 58rem;
