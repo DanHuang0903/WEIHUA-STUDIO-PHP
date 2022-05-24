@@ -568,13 +568,71 @@ html,body{
 		word-spacing: 0.5px;
 	}
 
-		#studio p {
+		#studio-content {
 		width: 85%;
+		position: relative;
+		padding: 2rem;
+		height: 60%;
 
 	}
 
+	#studio-content::before {
+		content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 40%;
+ 		border-top: 1px solid #666;
+    border-left: 1px solid #666;	
+   
+	}
+	#studio-content::after {
+		content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    height: 40%;
+     border-bottom: 1px solid #666;
+    border-right: 1px solid #666;
+   
+	}
+
+	#home-terms{
+		border: none;
+		background-color: none;
+		font-family: 'Raleway', serif;
+		font-size: 17px;
+	}
+
+	#home-terms:hover{
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+	}
+
+	#studio-share{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		padding-top: 0.5rem;
+		margin: 0;
+	}
+
+
+	#studio a{
+		flex: 1;
+		font-family: 'Raleway', serif;
+		font-size: 17px;
+		text-decoration: none;
+		color: #666;
+		padding-bottom: 0.5rem;
+	}
+
 	#share {
-	align-self: stretch;
+		align-self: stretch;
 		margin-right: 2rem;
 		
 	}

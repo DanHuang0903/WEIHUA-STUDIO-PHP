@@ -43,9 +43,17 @@
 				<h2>
 					Not 100% Professional<br/> But 200% Dedicated
 				</h2>
-				<p>
-					Every achievement is about enthusiasm. We are not professinal photographers, but all the awards we gained are the best recognitions of our passion on photography. Weihua Sutdio is to share our enthusiasm with the whole world, and to conmunicate with everyone who is interested in photography.
-				</p>
+				<div id="studio-content">
+					<p>
+					Every achievement is about enthusiasm. We are not professinal photographers, but all the awards we gained are the best recognitions of our passion on photography. Weihua Sutdio is to share our enthusiasm with the whole world, and to conmunicate with everyone who is interested in photography.<br/><br/>
+					Browse the gallery page for all our photographic works we would like to share with everyone, feel free to use the photos following our <button class="terms" id="home-terms">terms</button> or share our D-studio with others via
+					</p>
+					<div id="studio-share">
+						<a href="https://www.facebook.com/sharer/sharer.php?u=http://weihua-studio.herokuapp.com/public/" target="_blank"><i class='fa fa-facebook-official'></i> Facebook</a>
+						<a href="https://twitter.com/intent/tweet" target="_blank"><i class='fa fa-twitter'></i> Twitter</a>
+					</div>
+
+				</div>
 			</div>
 			<div id="nature-tile-words">
 				
